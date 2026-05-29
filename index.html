@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<!-- saved from url=(0057)file:///C:/Users/sebas/Downloads/serenum-final%20(4).html -->
+<!-- saved from url=(0057)file:///C:/Users/sebas/Downloads/serenum-final%20(6).html -->
 <html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>Sérénum — Gestion du stress scolaire</title>
-<link href="./Sérénum — Accompagnement émotionnel enfants &amp; adolescents_files/css2" rel="stylesheet">
+<link href="./Sérénum — Gestion du stress scolaire_files/css2" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
@@ -166,6 +166,9 @@ h1,h2,h3,h4{font-family:'Cormorant Garamond',serif}
 .h-tab{flex:1;padding:9px;border-radius:9px;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;font-size:12px;color:var(--text-m);background:transparent;transition:all .2s;text-align:center}
 .h-tab.active{background:var(--white);color:var(--text);font-weight:500;box-shadow:0 1px 4px rgba(0,0,0,.08)}
 .h-panel{display:none}.h-panel.active{display:block}
+.sub-tab{flex:1;padding:9px;border-radius:9px;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;font-size:12px;color:var(--text-m);background:transparent;transition:all .2s;text-align:center}
+.sub-tab.active{background:var(--white);color:var(--text);font-weight:500;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.sub-panel{display:none}.sub-panel.active{display:block}
 .signal-item{display:flex;align-items:flex-start;gap:12px;padding:12px;border-radius:10px;border:1px solid var(--border);margin-bottom:8px;cursor:pointer;transition:all .2s}
 .signal-item.checked{background:rgba(122,158,126,.08);border-color:var(--sage)}
 .sig-check{width:22px;height:22px;min-width:22px;border-radius:6px;border:2px solid var(--border);display:flex;align-items:center;justify-content:center;transition:all .2s;font-size:13px;color:transparent}
@@ -436,78 +439,17 @@ select{padding:8px 12px;border:1px solid var(--border);border-radius:8px;backgro
   <div class="dash-wrap">
     <aside class="sidebar">
       <div class="sidebar-title">Sérénum</div>
-      <div class="s-nav" id="sidebar-nav"><button class="s-item active"><span class="ico">🏠</span>Tableau de bord</button><button class="s-item"><span class="ico">📓</span>Mon journal</button><button class="s-item"><span class="ico">🫁</span>Exercices</button><button class="s-item"><span class="ico">🛡️</span>Harcèlement</button><button class="s-item"><span class="ico">📈</span>Évolution</button><div class="s-lock"><span class="ico">🔒</span>Armure du matin (Intensif)</div></div>
+      <div class="s-nav" id="sidebar-nav">
+        <!-- Rempli par JS selon offre -->
+      </div>
       <div class="s-offre">
         <div class="s-offre-label">Offre active</div>
-        <div id="sidebar-offre-badge" style="font-weight:500;font-size:14px">⭐ Famille Unie</div>
+        <div id="sidebar-offre-badge" style="font-weight:500;font-size:14px">—</div>
       </div>
     </aside>
-    <main class="dash-main" id="dash-main"><div class="dash-top">
-    <div class="greeting"><h2 style="font-size:20px;font-weight:400;font-family:&#39;DM Sans&#39;,sans-serif;color:var(--text-m)">Espace parent</h2><p>vendredi 29 mai 2026</p></div>
-    <div class="role-sw"><button class="r-btn active" data-role="parent">👨‍👩‍👧 Parent</button><button class="r-btn" data-role="enfant">🧒 Enfant</button><button class="r-btn" data-role="ado">🧑 Ado</button></div>
-  </div>
-  <div style="display:flex;justify-content:flex-end;margin-bottom:12px">
-    <button class="btn btn-out btn-sm" onclick="openChildConfig()">⚙️ Gérer les profils enfants</button>
-  </div>
-  <div class="metrics">
-    <div class="metric"><div class="metric-l">Score anxiété Enfant 1</div><div class="metric-v" style="color:#C47B7B">6.4</div><div class="metric-s">/10 · ↑ depuis hier</div></div>
-    <div class="metric"><div class="metric-l">Score anxiété Enfant 2</div><div class="metric-v" style="color:#C4A24A">4.2</div><div class="metric-s">/10 · stable</div></div>
-    <div class="metric"><div class="metric-l">Exercices cette semaine</div><div class="metric-v">12</div><div class="metric-s">Enfant 1: 8 · Enfant 2: 4</div></div>
-    <div class="metric"><div class="metric-l">Streak Enfant 1</div><div class="metric-v" style="color:var(--sage)">7🔥</div><div class="metric-s">jours consécutifs</div></div>
-  </div>
-  <div class="grid2">
-    <div class="card">
-      <div class="card-title">Alertes parentales</div>
-      <div class="alert alert-r">⚠️ <div><strong>Enfant 1</strong> — Anxiété élevée (6.4/10) depuis 3 jours. Surveillance recommandée.</div></div>
-      <div class="alert alert-y">⏰ <div><strong>Enfant 2</strong> — Journal non complété depuis 2 jours.</div></div>
-      <div class="alert alert-g">✅ <div><strong>Enfant 1</strong> — 3 exercices complétés aujourd'hui. Excellent !</div></div>
-    </div>
-    <div class="card">
-      <div class="card-title">Humeur cette semaine</div>
-      <div style="font-size:12px;color:var(--text-m);margin-bottom:8px">Enfant 1 (rose) · Enfant 2 (teal)</div>
-      <div class="bars">
-        <div class="bar-col">
-          <div class="bar" style="height:45%;background:var(--teal-l)"></div>
-          <div class="bar" style="height:54%;background:var(--rose-l)"></div>
-          <div class="bar-lbl">Lun</div>
-        </div><div class="bar-col">
-          <div class="bar" style="height:36%;background:var(--teal-l)"></div>
-          <div class="bar" style="height:45%;background:var(--rose-l)"></div>
-          <div class="bar-lbl">Mar</div>
-        </div><div class="bar-col">
-          <div class="bar" style="height:54%;background:var(--teal-l)"></div>
-          <div class="bar" style="height:63%;background:var(--rose-l)"></div>
-          <div class="bar-lbl">Mer</div>
-        </div><div class="bar-col">
-          <div class="bar" style="height:45%;background:var(--teal-l)"></div>
-          <div class="bar" style="height:54%;background:var(--rose-l)"></div>
-          <div class="bar-lbl">Jeu</div>
-        </div><div class="bar-col">
-          <div class="bar" style="height:63%;background:var(--teal-l)"></div>
-          <div class="bar" style="height:81%;background:var(--rose-l)"></div>
-          <div class="bar-lbl">Ven</div>
-        </div><div class="bar-col">
-          <div class="bar" style="height:54%;background:var(--teal-l)"></div>
-          <div class="bar" style="height:63%;background:var(--rose-l)"></div>
-          <div class="bar-lbl">Sam</div>
-        </div><div class="bar-col">
-          <div class="bar" style="height:45%;background:var(--teal-l)"></div>
-          <div class="bar" style="height:72%;background:var(--rose-l)"></div>
-          <div class="bar-lbl">Dim</div>
-        </div>
-      </div>
-      <div style="font-size:11px;color:var(--text-l);text-align:center;margin-top:6px">Plus haut = meilleure humeur</div>
-    </div>
-  </div>
-  <div class="card full">
-    <div class="card-title">Activité récente</div>
-    <div class="timeline">
-      <div class="tl-item"><div class="tl-time">Aujourd'hui · 16h32</div><div class="tl-text">Enfant 1 a complété "Bulle de savon" (3 cycles) — Humeur après : 😊</div></div>
-      <div class="tl-item"><div class="tl-time">Aujourd'hui · 14h10</div><div class="tl-text">Enfant 1 a écrit dans son journal des émotions</div></div>
-      <div class="tl-item"><div class="tl-time">Hier · 20h15</div><div class="tl-text">Enfant 2 a complété "Respiration 4-7-8" — Humeur après : 😐</div></div>
-      <div class="tl-item"><div class="tl-time">Hier · 18h00</div><div class="tl-text">Enfant 1 a complété "Cohérence cardiaque" (5 min)</div></div>
-    </div>
-  </div></main>
+    <main class="dash-main" id="dash-main">
+      <!-- Contenu dynamique -->
+    </main>
   </div>
 </div>
 
@@ -713,10 +655,10 @@ const OFFRES=[
    nav:[{id:'overview',ico:'🏠',label:'Tableau de bord'},{id:'journal',ico:'📓',label:'Mon journal'},{id:'exercices',ico:'🫁',label:'Exercices'},{id:'tracker',ico:'📊',label:'Tracker stress'},{id:'evolution',ico:'📈',label:'Évolution'}]},
   {name:'Famille Unie',sub:'Famille complète · 3 profils',prix:'189€',icon:'⭐',color:'gold',stripe:'https://buy.stripe.com/3cI28s5A2cBDcigbVyg7e0h',
    roles:['parent','enfant','ado'],profiles:3,
-   nav:[{id:'overview',ico:'🏠',label:'Tableau de bord'},{id:'journal',ico:'📓',label:'Mon journal'},{id:'exercices',ico:'🫁',label:'Exercices'},{id:'harcelement',ico:'🛡️',label:'Harcèlement'},{id:'evolution',ico:'📈',label:'Évolution'}]},
+   nav:[{id:'overview',ico:'🏠',label:'Tableau de bord'},{id:'journal',ico:'📓',label:'Mon journal'},{id:'exercices',ico:'🫁',label:'Exercices'},{id:'tracker',ico:'📊',label:'Tracker stress'},{id:'harcelement',ico:'🛡️',label:'Harcèlement'},{id:'evolution',ico:'📈',label:'Évolution'}]},
   {name:'Intensif & Harcèlement',sub:'Crises sévères · Anti-harcèlement · 4 profils',prix:'269€',icon:'🛡️',color:'rose',stripe:'https://buy.stripe.com/6oU8wQ4vY6dfgyw0cQg7e0k',
    roles:['parent','enfant','ado'],profiles:4,
-   nav:[{id:'overview',ico:'🏠',label:'Tableau de bord'},{id:'journal',ico:'📓',label:'Mon journal'},{id:'exercices',ico:'🫁',label:'Exercices'},{id:'harcelement',ico:'🛡️',label:'Harcèlement'},{id:'armure',ico:'🛡️',label:'Armure du matin'},{id:'evolution',ico:'📈',label:'Évolution'}]}
+   nav:[{id:'overview',ico:'🏠',label:'Tableau de bord'},{id:'journal',ico:'📓',label:'Mon journal'},{id:'exercices',ico:'🫁',label:'Exercices'},{id:'tracker',ico:'📊',label:'Tracker stress'},{id:'harcelement',ico:'🛡️',label:'Harcèlement'},{id:'armure',ico:'🛡️',label:'Armure du matin'},{id:'evolution',ico:'📈',label:'Évolution'}]}
 ];
 
 // Données humeur simulées par rôle/profil
@@ -730,7 +672,16 @@ const moodData={
 const jours=['Lun','Mar','Mer','Jeu','Ven','Sam','Dim'];
 
 // State
-let currentOffre=2; // Famille Unie par défaut démo
+let currentOffre=0; // Sera défini après connexion
+let appUnlocked=false;
+
+// ═══════════ MOTS DE PASSE PAR OFFRE ═══════════
+const CODES={
+  'PP2025':0,   // Petites Pousses — 49€
+  'CS2025':1,   // Cap Sérénité — 119€
+  'FU2025':2,   // Famille Unie — 189€
+  'IH2025':3    // Intensif & Harcèlement — 269€
+};
 let currentRole='parent';
 let currentSection='overview';
 let currentMood=null;
@@ -745,8 +696,63 @@ function goPage(id){
   document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
   document.querySelectorAll('.nav-link').forEach(l=>l.classList.remove('active'));
   document.getElementById('page-'+id).classList.add('active');
-  if(id==='dash') initDash();
+  if(id==='dash'){
+    if(appUnlocked) initDash();
+    else showLogin();
+  }
   window.scrollTo(0,0);
+}
+
+// ═══════════ ÉCRAN DE CONNEXION ═══════════
+function showLogin(){
+  const saved=localStorage.getItem('serenum_offre');
+  if(saved!==null && CODES[localStorage.getItem('serenum_code')]!==undefined){
+    currentOffre=parseInt(saved);
+    appUnlocked=true;
+    initDash();
+    return;
+  }
+  const main=document.getElementById('dash-main');
+  const sidebar=document.querySelector('.sidebar');
+  if(sidebar)sidebar.style.display='none';
+  main.style.gridColumn='1/-1';
+  main.innerHTML=`
+  <div style="max-width:420px;margin:60px auto;text-align:center">
+    <div style="font-size:48px;margin-bottom:16px">🔐</div>
+    <h2 style="font-size:30px;font-weight:300;margin-bottom:8px">Accès à votre espace</h2>
+    <p style="font-size:14px;color:var(--text-m);margin-bottom:28px;line-height:1.6">Entrez le code reçu par email après votre achat. Ce code débloque votre offre.</p>
+    <div class="card" style="text-align:left">
+      <label style="font-size:13px;color:var(--text-m);display:block;margin-bottom:8px">Votre code d'accès</label>
+      <input type="text" id="login-code" placeholder="Ex : PP2025" style="width:100%;padding:12px 16px;border:2px solid var(--border);border-radius:10px;font-size:16px;text-transform:uppercase;letter-spacing:1px" oninput="this.value=this.value.toUpperCase()" onkeydown="if(event.key==='Enter')tryLogin()"/>
+      <div id="login-err" style="font-size:13px;color:var(--rose);margin-top:10px;display:none">❌ Code invalide. Vérifiez l'email reçu après votre achat.</div>
+      <button class="btn btn-sage" style="width:100%;justify-content:center;margin-top:16px" onclick="tryLogin()">Accéder à mon espace →</button>
+    </div>
+    <p style="font-size:13px;color:var(--text-l);margin-top:20px">Pas encore de code ? <span onclick="goPage('offres')" style="color:var(--sage);cursor:pointer;text-decoration:underline">Découvrir les offres</span></p>
+  </div>`;
+}
+
+function tryLogin(){
+  const code=document.getElementById('login-code').value.trim().toUpperCase();
+  if(CODES[code]!==undefined){
+    currentOffre=CODES[code];
+    appUnlocked=true;
+    localStorage.setItem('serenum_offre',currentOffre);
+    localStorage.setItem('serenum_code',code);
+    const sidebar=document.querySelector('.sidebar');
+    if(sidebar)sidebar.style.display='';
+    const main=document.getElementById('dash-main');
+    main.style.gridColumn='';
+    initDash();
+  }else{
+    document.getElementById('login-err').style.display='block';
+  }
+}
+
+function logout(){
+  localStorage.removeItem('serenum_offre');
+  localStorage.removeItem('serenum_code');
+  appUnlocked=false;
+  showLogin();
 }
 
 // ═══════════ DASHBOARD ═══════════
@@ -762,23 +768,23 @@ function initDash(){
     btn.onclick=()=>switchSection(item.id,btn);
     nav.appendChild(btn);
   });
-  // Locked items based on offre
-  if(currentOffre<3){
-    const lock=document.createElement('div');
-    lock.className='s-lock';
-    lock.innerHTML=`<span class="ico">🔒</span>Armure du matin (Intensif)`;
-    nav.appendChild(lock);
-  }
-  if(currentOffre<2){
-    ['Harcèlement','Tracker stress'].forEach(l=>{
+  // Sections verrouillées (mode cumulatif — propres aux offres supérieures)
+  const allSections=[
+    {id:'tracker',label:'Tracker stress',offre:1},
+    {id:'harcelement',label:'Harcèlement',offre:2},
+    {id:'armure',label:'Armure du matin',offre:3}
+  ];
+  const myNavIds=o.nav.map(n=>n.id);
+  allSections.forEach(sec=>{
+    if(!myNavIds.includes(sec.id) && sec.offre>currentOffre){
       const lock=document.createElement('div');
       lock.className='s-lock';
-      lock.innerHTML=`<span class="ico">🔒</span>${l}`;
+      lock.innerHTML=`<span class="ico">🔒</span>${sec.label} (${OFFRES[sec.offre].name})`;
       nav.appendChild(lock);
-    });
-  }
+    }
+  });
   // Badge
-  document.getElementById('sidebar-offre-badge').textContent=o.icon+' '+o.name;
+  document.getElementById('sidebar-offre-badge').innerHTML=o.icon+' '+o.name+'<br><span onclick="logout()" style="font-size:11px;color:var(--text-l);cursor:pointer;text-decoration:underline;margin-top:4px;display:inline-block">Se déconnecter</span>';
   // Role switcher
   renderRoles();
   renderSection();
@@ -1297,15 +1303,15 @@ function renderHarcelement(){
     <div class="card">
       <div class="card-title">Scripts de dialogue par âge</div>
       <div class="harc-tabs" style="margin-bottom:16px">
-        <button class="h-tab active" onclick="switchHTab(this,'s-611',this.closest('.card'))">6-11 ans</button>
-        <button class="h-tab" onclick="switchHTab(this,'s-1218',this.closest('.card'))">12-18 ans</button>
+        <button class="sub-tab active" onclick="switchSubTab(this,'s-611')">6-11 ans</button>
+        <button class="sub-tab" onclick="switchSubTab(this,'s-1218')">12-18 ans</button>
       </div>
-      <div id="s-611" class="h-panel active">
+      <div id="s-611" class="sub-panel active">
         <div class="script-box"><div class="script-label">Phrase d'ouverture (soir, calme)</div><div class="script-text">"Tu sais, ma mission de parent c'est d'être là pour toi, même pour les choses difficiles. Est-ce qu'il y a quelque chose qui te rend triste à l'école en ce moment ?"</div></div>
         <div class="script-box"><div class="script-label">Si l'enfant minimise</div><div class="script-text">"J'ai remarqué que tu sembles moins heureux quand tu rentres. Je ne te juge pas, je veux juste comprendre. Tu peux tout me dire."</div></div>
         <div class="script-box"><div class="script-label">S'il avoue quelque chose</div><div class="script-text">"Merci de me faire confiance. Tu as bien fait de me le dire. Ce n'est pas de ta faute. On va régler ça ensemble, je suis là."</div></div>
       </div>
-      <div id="s-1218" class="h-panel">
+      <div id="s-1218" class="sub-panel">
         <div class="script-box"><div class="script-label">Approche indirecte (ne pas forcer)</div><div class="script-text">"Je ne veux pas t'envahir. Mais j'ai l'impression que quelque chose ne va pas. Je suis là si tu veux en parler, sans jugement, sans en faire tout un drame."</div></div>
         <div class="script-box"><div class="script-label">Créer une distance émotionnelle</div><div class="script-text">"Imagine qu'un ami me raconte qu'il se fait embêter à l'école. Qu'est-ce que tu lui dirais, toi ?"</div></div>
         <div class="script-box"><div class="script-label">Garantir la confidentialité</div><div class="script-text">"Ce que tu me dis reste entre nous, sauf si tu es en danger. Je ne vais pas appeler le proviseur sans t'en parler avant."</div></div>
@@ -1339,6 +1345,15 @@ function renderHarcelement(){
   </div>`;
 }
 
+function switchSubTab(btn,panelId){
+  const card=btn.closest('.card');
+  if(!card)return;
+  card.querySelectorAll('.sub-tab').forEach(t=>t.classList.remove('active'));
+  card.querySelectorAll('.sub-panel').forEach(p=>p.classList.remove('active'));
+  btn.classList.add('active');
+  const panel=document.getElementById(panelId);
+  if(panel)panel.classList.add('active');
+}
 function switchHTab(btn,panelId,scope){
   const container=scope||document;
   container.querySelectorAll('.h-tab').forEach(t=>t.classList.remove('active'));
@@ -1426,11 +1441,13 @@ function renderTracker(){
     </div>
     <div class="card">
       <div class="card-title">Stress par matière</div>
+      <div id="stress-bars">
       ${Object.entries(stressData).map(([m,v])=>`
         <div class="prog-wrap">
           <div class="prog-label"><span>${m.charAt(0).toUpperCase()+m.slice(1)}</span><span>${v}/10</span></div>
           <div class="prog-bg"><div class="prog-fill" style="width:${v*10}%;background:${v>7?'var(--rose)':v>4?'var(--gold)':'var(--sage)'}"></div></div>
         </div>`).join('')}
+      </div>
     </div>
   </div>
   <div class="card" id="tracker-history">
@@ -1456,9 +1473,22 @@ function addTracker(){
     item.innerHTML=`<div class="tl-time">Maintenant</div><div class="tl-text">${t} en ${m} — Stress : ${s}/10</div>`;
     tl.insertBefore(item,tl.firstChild);
   }
-  stressData[m.toLowerCase()]=(parseInt(stressData[m.toLowerCase()]||5)+parseInt(s))/2|0;
-  const card=document.querySelector('#tracker-history').previousElementSibling.previousElementSibling;
-  if(card) card.querySelector('.card-title').nextElementSibling && (card.innerHTML='<div class="card-title">Stress par matière</div>'+Object.entries(stressData).map(([m,v])=>`<div class="prog-wrap"><div class="prog-label"><span>${m.charAt(0).toUpperCase()+m.slice(1)}</span><span>${v}/10</span></div><div class="prog-bg"><div class="prog-fill" style="width:${v*10}%;background:${v>7?'var(--rose)':v>4?'var(--gold)':'var(--sage)'}"></div></div></div>`).join(''));
+  // Mise à jour de la donnée (clé normalisée sans accent)
+  const key=m.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').split('-')[0].trim();
+  const matchKey=Object.keys(stressData).find(k=>key.startsWith(k)||k.startsWith(key))||key;
+  stressData[matchKey]=Math.round((parseInt(stressData[matchKey]||5)+parseInt(s))/2);
+  // Mise à jour fiable du graphique
+  const bars=document.getElementById('stress-bars');
+  if(bars){
+    bars.innerHTML=Object.entries(stressData).map(([mat,v])=>`
+      <div class="prog-wrap">
+        <div class="prog-label"><span>${mat.charAt(0).toUpperCase()+mat.slice(1)}</span><span>${v}/10</span></div>
+        <div class="prog-bg"><div class="prog-fill" style="width:${v*10}%;background:${v>7?'var(--rose)':v>4?'var(--gold)':'var(--sage)'}"></div></div>
+      </div>`).join('');
+  }
+  // Confirmation visuelle
+  const note=document.getElementById('t-note');
+  if(note)note.value='';
 }
 
 // ═══════════ ÉVOLUTION ═══════════
@@ -1661,11 +1691,16 @@ function saveChildConfig(max){
 
 
 
-// Init
+// Init — ne pas charger le dashboard avant connexion
 document.addEventListener('DOMContentLoaded',()=>{
-  initDash();
+  // Restaurer session si code valide déjà saisi
+  const savedCode=localStorage.getItem('serenum_code');
+  const savedOffre=localStorage.getItem('serenum_offre');
+  if(savedCode && CODES[savedCode]!==undefined && savedOffre!==null){
+    currentOffre=parseInt(savedOffre);
+    appUnlocked=true;
+  }
 });
-initDash();
 </script>
 
 
