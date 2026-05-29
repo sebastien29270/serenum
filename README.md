@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0051)file:///C:/Users/sebas/Downloads/serenum-final.html -->
+<!-- saved from url=(0057)file:///C:/Users/sebas/Downloads/serenum-final%20(2).html -->
 <html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -443,25 +443,28 @@ select{padding:8px 12px;border:1px solid var(--border);border-radius:8px;backgro
       </div>
     </aside>
     <main class="dash-main" id="dash-main"><div class="dash-top">
-    <div class="greeting"><h2>Bonjour, Sébastien 👋</h2><p>Vendredi 29 mai 2026</p></div>
+    <div class="greeting"><h2 style="font-size:20px;font-weight:400;font-family:&#39;DM Sans&#39;,sans-serif;color:var(--text-m)">Espace parent</h2><p>vendredi 29 mai 2026</p></div>
     <div class="role-sw"><button class="r-btn active" data-role="parent">👨‍👩‍👧 Parent</button><button class="r-btn" data-role="enfant">🧒 Enfant</button><button class="r-btn" data-role="ado">🧑 Ado</button></div>
   </div>
+  <div style="display:flex;justify-content:flex-end;margin-bottom:12px">
+    <button class="btn btn-out btn-sm" onclick="openChildConfig()">⚙️ Gérer les profils enfants</button>
+  </div>
   <div class="metrics">
-    <div class="metric"><div class="metric-l">Score anxiété Emma</div><div class="metric-v" style="color:#C47B7B">6.4</div><div class="metric-s">/10 · ↑ depuis hier</div></div>
-    <div class="metric"><div class="metric-l">Score anxiété Léo</div><div class="metric-v" style="color:#C4A24A">4.2</div><div class="metric-s">/10 · stable</div></div>
-    <div class="metric"><div class="metric-l">Exercices cette semaine</div><div class="metric-v">12</div><div class="metric-s">Emma: 8 · Léo: 4</div></div>
-    <div class="metric"><div class="metric-l">Streak Emma</div><div class="metric-v" style="color:var(--sage)">7🔥</div><div class="metric-s">jours consécutifs</div></div>
+    <div class="metric"><div class="metric-l">Score anxiété Enfant 1</div><div class="metric-v" style="color:#C47B7B">6.4</div><div class="metric-s">/10 · ↑ depuis hier</div></div>
+    <div class="metric"><div class="metric-l">Score anxiété Enfant 2</div><div class="metric-v" style="color:#C4A24A">4.2</div><div class="metric-s">/10 · stable</div></div>
+    <div class="metric"><div class="metric-l">Exercices cette semaine</div><div class="metric-v">12</div><div class="metric-s">Enfant 1: 8 · Enfant 2: 4</div></div>
+    <div class="metric"><div class="metric-l">Streak Enfant 1</div><div class="metric-v" style="color:var(--sage)">7🔥</div><div class="metric-s">jours consécutifs</div></div>
   </div>
   <div class="grid2">
     <div class="card">
       <div class="card-title">Alertes parentales</div>
-      <div class="alert alert-r">⚠️ <div><strong>Emma (9 ans)</strong> — Anxiété élevée (6.4/10) depuis 3 jours. Surveillance recommandée.</div></div>
-      <div class="alert alert-y">⏰ <div><strong>Léo (14 ans)</strong> — Journal non complété depuis 2 jours.</div></div>
-      <div class="alert alert-g">✅ <div><strong>Emma</strong> — 3 exercices complétés aujourd'hui. Excellent !</div></div>
+      <div class="alert alert-r">⚠️ <div><strong>Enfant 1</strong> — Anxiété élevée (6.4/10) depuis 3 jours. Surveillance recommandée.</div></div>
+      <div class="alert alert-y">⏰ <div><strong>Enfant 2</strong> — Journal non complété depuis 2 jours.</div></div>
+      <div class="alert alert-g">✅ <div><strong>Enfant 1</strong> — 3 exercices complétés aujourd'hui. Excellent !</div></div>
     </div>
     <div class="card">
       <div class="card-title">Humeur cette semaine</div>
-      <div style="font-size:12px;color:var(--text-m);margin-bottom:8px">Emma (rose) · Léo (teal)</div>
+      <div style="font-size:12px;color:var(--text-m);margin-bottom:8px">Enfant 1 (rose) · Enfant 2 (teal)</div>
       <div class="bars">
         <div class="bar-col">
           <div class="bar" style="height:45%;background:var(--teal-l)"></div>
@@ -499,10 +502,10 @@ select{padding:8px 12px;border:1px solid var(--border);border-radius:8px;backgro
   <div class="card full">
     <div class="card-title">Activité récente</div>
     <div class="timeline">
-      <div class="tl-item"><div class="tl-time">Aujourd'hui · 16h32</div><div class="tl-text">Emma a complété "Bulle de savon" (3 cycles) — Humeur après : 😊</div></div>
-      <div class="tl-item"><div class="tl-time">Aujourd'hui · 14h10</div><div class="tl-text">Emma a écrit dans son journal des émotions</div></div>
-      <div class="tl-item"><div class="tl-time">Hier · 20h15</div><div class="tl-text">Léo a complété "Respiration 4-7-8" — Humeur après : 😐</div></div>
-      <div class="tl-item"><div class="tl-time">Hier · 18h00</div><div class="tl-text">Emma a complété "Cohérence cardiaque" (5 min)</div></div>
+      <div class="tl-item"><div class="tl-time">Aujourd'hui · 16h32</div><div class="tl-text">Enfant 1 a complété "Bulle de savon" (3 cycles) — Humeur après : 😊</div></div>
+      <div class="tl-item"><div class="tl-time">Aujourd'hui · 14h10</div><div class="tl-text">Enfant 1 a écrit dans son journal des émotions</div></div>
+      <div class="tl-item"><div class="tl-time">Hier · 20h15</div><div class="tl-text">Enfant 2 a complété "Respiration 4-7-8" — Humeur après : 😐</div></div>
+      <div class="tl-item"><div class="tl-time">Hier · 18h00</div><div class="tl-text">Enfant 1 a complété "Cohérence cardiaque" (5 min)</div></div>
     </div>
   </div></main>
   </div>
@@ -720,8 +723,8 @@ const OFFRES=[
 const moodData={
   enfant:{week:[7,5,8,6,9,7,8],month:[6,7,5,8,6,9,7,8,7,6,8,9,7,8,6,7,5,8,9,7,6,8,7,9,8,7,6,8,7,8]},
   ado:{week:[5,4,6,5,7,6,5],month:[5,4,6,5,7,6,5,4,6,7,5,6,4,5,7,6,5,4,6,5,7,6,7,5,4,6,5,7,6,5]},
-  emma:{week:[6,5,7,6,9,7,8],name:'Emma',age:9},
-  leo:{week:[5,4,6,5,7,6,5],name:'Léo',age:14}
+  emma:{week:[6,5,7,6,9,7,8],name:'Enfant 1',age:9},
+  leo:{week:[5,4,6,5,7,6,5],name:'Enfant 2',age:14}
 };
 
 const jours=['Lun','Mar','Mer','Jeu','Ven','Sam','Dim'];
@@ -816,9 +819,12 @@ function renderRoles(){
 function renderSection(){
   const main=document.getElementById('dash-main');
   const o=OFFRES[currentOffre];
-  const greetings={parent:'Bonjour, Sébastien 👋',enfant:'Bonjour Emma ! 🌟',ado:'Salut Léo 👋'};
+  const c1=children[0]?.prenom||'Votre enfant';
+  const c2=children[1]?.prenom||null;
+  const roleLabel={parent:'Espace parent',enfant:c1,ado:c2||c1}[currentRole]||'';
+  const dateStr=new Date().toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
   const top=`<div class="dash-top">
-    <div class="greeting"><h2>${greetings[currentRole]}</h2><p>Vendredi 29 mai 2026</p></div>
+    <div class="greeting"><h2 style="font-size:20px;font-weight:400;font-family:'DM Sans',sans-serif;color:var(--text-m)">${roleLabel}</h2><p>${dateStr}</p></div>
     <div class="role-sw"></div>
   </div>`;
   let content='';
@@ -848,23 +854,30 @@ function renderOverview(){
 function renderOverviewParent(){
   const o=OFFRES[currentOffre];
   const multi=o.profiles>1;
+  const c1=childLabel(0);
+  const c2=childLabel(1);
+  const a1=children[0]?.age?` (${children[0].age} ans)`:'';
+  const a2=children[1]?.age?` (${children[1].age} ans)`:'';
   return `
+  <div style="display:flex;justify-content:flex-end;margin-bottom:12px">
+    <button class="btn btn-out btn-sm" onclick="openChildConfig()">⚙️ Gérer les profils enfants</button>
+  </div>
   <div class="metrics">
-    <div class="metric"><div class="metric-l">Score anxiété${multi?' Emma':''}</div><div class="metric-v" style="color:#C47B7B">6.4</div><div class="metric-s">/10 · ↑ depuis hier</div></div>
-    ${multi?`<div class="metric"><div class="metric-l">Score anxiété Léo</div><div class="metric-v" style="color:#C4A24A">4.2</div><div class="metric-s">/10 · stable</div></div>`:''}
-    <div class="metric"><div class="metric-l">Exercices cette semaine</div><div class="metric-v">12</div><div class="metric-s">${multi?'Emma: 8 · Léo: 4':'cette semaine'}</div></div>
-    <div class="metric"><div class="metric-l">Streak${multi?' Emma':''}</div><div class="metric-v" style="color:var(--sage)">7🔥</div><div class="metric-s">jours consécutifs</div></div>
+    <div class="metric"><div class="metric-l">Score anxiété ${multi?c1:'enfant'}</div><div class="metric-v" style="color:#C47B7B">6.4</div><div class="metric-s">/10 · ↑ depuis hier</div></div>
+    ${multi?`<div class="metric"><div class="metric-l">Score anxiété ${c2}</div><div class="metric-v" style="color:#C4A24A">4.2</div><div class="metric-s">/10 · stable</div></div>`:''}
+    <div class="metric"><div class="metric-l">Exercices cette semaine</div><div class="metric-v">12</div><div class="metric-s">${multi?`${c1}: 8 · ${c2}: 4`:'cette semaine'}</div></div>
+    <div class="metric"><div class="metric-l">Streak ${multi?c1:'enfant'}</div><div class="metric-v" style="color:var(--sage)">7🔥</div><div class="metric-s">jours consécutifs</div></div>
   </div>
   <div class="grid2">
     <div class="card">
       <div class="card-title">Alertes parentales</div>
-      <div class="alert alert-r">⚠️ <div><strong>Emma (9 ans)</strong> — Anxiété élevée (6.4/10) depuis 3 jours. Surveillance recommandée.</div></div>
-      <div class="alert alert-y">⏰ <div>${multi?'<strong>Léo (14 ans)</strong> — Journal non complété depuis 2 jours.':'Journal non complété depuis 2 jours. Encouragez votre enfant.'}</div></div>
-      <div class="alert alert-g">✅ <div><strong>${multi?'Emma':'Votre enfant'}</strong> — 3 exercices complétés aujourd'hui. Excellent !</div></div>
+      <div class="alert alert-r">⚠️ <div><strong>${c1}${a1}</strong> — Anxiété élevée (6.4/10) depuis 3 jours. Surveillance recommandée.</div></div>
+      <div class="alert alert-y">⏰ <div>${multi?`<strong>${c2}${a2}</strong> — Journal non complété depuis 2 jours.`:'Journal non complété depuis 2 jours. Encouragez votre enfant.'}</div></div>
+      <div class="alert alert-g">✅ <div><strong>${multi?c1:'Votre enfant'}</strong> — 3 exercices complétés aujourd'hui. Excellent !</div></div>
     </div>
     <div class="card">
       <div class="card-title">Humeur cette semaine</div>
-      ${multi?'<div style="font-size:12px;color:var(--text-m);margin-bottom:8px">Emma (rose) · Léo (teal)</div>':''}
+      ${multi?`<div style="font-size:12px;color:var(--text-m);margin-bottom:8px">${c1} (rose) · ${c2} (teal)</div>`:''}
       <div class="bars">
         ${jours.map((j,i)=>`<div class="bar-col">
           ${multi?`<div class="bar" style="height:${moodData.leo.week[i]*9}%;background:var(--teal-l)"></div>`:''}
@@ -878,10 +891,10 @@ function renderOverviewParent(){
   <div class="card full">
     <div class="card-title">Activité récente</div>
     <div class="timeline">
-      <div class="tl-item"><div class="tl-time">Aujourd'hui · 16h32</div><div class="tl-text">${multi?'Emma a':'A'} complété "Bulle de savon" (3 cycles) — Humeur après : 😊</div></div>
-      <div class="tl-item"><div class="tl-time">Aujourd'hui · 14h10</div><div class="tl-text">${multi?'Emma a':'A'} écrit dans son journal des émotions</div></div>
-      ${multi?`<div class="tl-item"><div class="tl-time">Hier · 20h15</div><div class="tl-text">Léo a complété "Respiration 4-7-8" — Humeur après : 😐</div></div>`:''}
-      <div class="tl-item"><div class="tl-time">Hier · 18h00</div><div class="tl-text">${multi?'Emma a':'A'} complété "Cohérence cardiaque" (5 min)</div></div>
+      <div class="tl-item"><div class="tl-time">Aujourd'hui · 16h32</div><div class="tl-text">${multi?c1+' a':'A'} complété "Bulle de savon" (3 cycles) — Humeur après : 😊</div></div>
+      <div class="tl-item"><div class="tl-time">Aujourd'hui · 14h10</div><div class="tl-text">${multi?c1+' a':'A'} écrit dans son journal des émotions</div></div>
+      ${multi?`<div class="tl-item"><div class="tl-time">Hier · 20h15</div><div class="tl-text">${c2} a complété "Respiration 4-7-8" — Humeur après : 😐</div></div>`:''}
+      <div class="tl-item"><div class="tl-time">Hier · 18h00</div><div class="tl-text">${multi?c1+' a':'A'} complété "Cohérence cardiaque" (5 min)</div></div>
     </div>
   </div>`;
 }
@@ -973,7 +986,7 @@ function renderJournalParent(){
   <div class="grid2">
     <div class="card">
       <div class="card-title">Observation du jour</div>
-      <select id="j-enfant" style="width:100%;margin-bottom:12px">${OFFRES[currentOffre].profiles>1?'<option>Emma (9 ans)</option><option>Léo (14 ans)</option>':'<option>Votre enfant</option>'}</select>
+      <select id="j-enfant" style="width:100%;margin-bottom:12px">${OFFRES[currentOffre].profiles>1?`<option>${childLabel(0)}${children[0]?.age?' ('+children[0].age+' ans)':''}</option><option>${childLabel(1)}${children[1]?.age?' ('+children[1].age+' ans)':''}</option>`:`<option>${childLabel(0)}</option>`}</select>
       <div style="margin-bottom:10px">
         <div style="font-size:13px;color:var(--text-m);margin-bottom:6px">Humeur observée :</div>
         <div class="mood-row">
@@ -986,9 +999,9 @@ function renderJournalParent(){
     <div class="card">
       <div class="card-title">Entrées précédentes</div>
       ${entries.length===0?`<div class="timeline">
-        <div class="tl-item"><div class="tl-time">28 mai · Emma</div><div class="tl-text">Rentrée agitée. Pleurs pour les devoirs de maths. Calmée après la respiration bulle.</div></div>
-        <div class="tl-item"><div class="tl-time">27 mai · Emma</div><div class="tl-text">Très bonne journée. Souriante, appétit normal.</div></div>
-        <div class="tl-item"><div class="tl-time">26 mai · Léo</div><div class="tl-text">Renfermé le soir. N'a pas voulu parler du collège.</div></div>
+        <div class="tl-item"><div class="tl-time">28 mai · ${childLabel(0)}</div><div class="tl-text">Rentrée agitée. Pleurs pour les devoirs de maths. Calmée après la respiration bulle.</div></div>
+        <div class="tl-item"><div class="tl-time">27 mai · ${childLabel(0)}</div><div class="tl-text">Très bonne journée. Souriante, appétit normal.</div></div>
+        <div class="tl-item"><div class="tl-time">26 mai · ${childLabel(1)||childLabel(0)}</div><div class="tl-text">Renfermé le soir. N'a pas voulu parler de l'école.</div></div>
       </div>`:entries.map(e=>`<div class="tl-item"><div class="tl-time">${e.date}</div><div class="tl-text">${e.mood} ${e.text}</div></div>`).join('')}
       <div id="j-parent-saved" style="display:none" class="alert alert-g" style="margin-top:12px">✅ Observation enregistrée !</div>
     </div>
@@ -1569,7 +1582,70 @@ function toggleC(id){
   if(arrow)arrow.textContent=open?'▼':'▲';
 }
 
-// ═══════════ DÉMO OFFRE SWITCHER ═══════════
+// ═══════════ PROFILS ENFANTS ═══════════
+let children=JSON.parse(localStorage.getItem('serenum_children')||'[]');
+if(children.length===0) children=[{prenom:'',age:'',role:'enfant'},{prenom:'',age:'',role:'ado'}];
+
+function saveChildren(){
+  localStorage.setItem('serenum_children',JSON.stringify(children));
+}
+
+function getChild(idx){
+  return children[idx]||{prenom:'Enfant '+(idx+1),age:'',role:'enfant'};
+}
+
+function childLabel(idx){
+  const c=getChild(idx);
+  return c.prenom||(idx===0?'Enfant 1':'Enfant 2');
+}
+
+function openChildConfig(){
+  const max=OFFRES[currentOffre].profiles;
+  const modal=document.createElement('div');
+  modal.id='child-config-bg';
+  modal.className='modal-bg';
+  modal.style.zIndex='400';
+  modal.innerHTML=`<div class="modal" style="max-width:440px">
+    <h3 style="font-size:24px;font-weight:300;margin-bottom:6px">👨‍👩‍👧 Profils enfants</h3>
+    <p style="font-size:14px;color:var(--text-m);margin-bottom:20px">Personnalisez les prénoms et âges affichés dans l'espace.</p>
+    ${Array.from({length:max},(_,i)=>`
+    <div style="background:var(--cream-d);border-radius:12px;padding:16px;margin-bottom:12px">
+      <div style="font-size:12px;color:var(--text-l);text-transform:uppercase;letter-spacing:.5px;margin-bottom:10px">Profil ${i+1}</div>
+      <div style="display:grid;grid-template-columns:1fr 80px;gap:10px;margin-bottom:10px">
+        <div><label style="font-size:13px;color:var(--text-m);display:block;margin-bottom:4px">Prénom</label>
+          <input type="text" id="cp-prenom-${i}" value="${children[i]?.prenom||''}" placeholder="Prénom" style="width:100%;padding:9px 12px;border:1px solid var(--border);border-radius:8px;font-size:14px"/></div>
+        <div><label style="font-size:13px;color:var(--text-m);display:block;margin-bottom:4px">Âge</label>
+          <input type="number" id="cp-age-${i}" value="${children[i]?.age||''}" placeholder="9" min="4" max="18" style="width:100%;padding:9px 12px;border:1px solid var(--border);border-radius:8px;font-size:14px"/></div>
+      </div>
+      <div><label style="font-size:13px;color:var(--text-m);display:block;margin-bottom:4px">Espace de connexion</label>
+        <select id="cp-role-${i}" style="width:100%;padding:9px;border:1px solid var(--border);border-radius:8px">
+          <option value="enfant"${(children[i]?.role||'enfant')==='enfant'?' selected':''}>🧒 Interface enfant (6-11 ans)</option>
+          <option value="ado"${children[i]?.role==='ado'?' selected':''}>🧑 Interface adolescent (12-18 ans)</option>
+        </select></div>
+    </div>`).join('')}
+    <button class="btn btn-sage" style="width:100%;justify-content:center;margin-top:4px" onclick="saveChildConfig(${max})">Enregistrer les profils</button>
+    <button class="btn btn-out" style="width:100%;justify-content:center;margin-top:8px" onclick="document.getElementById('child-config-bg').remove()">Annuler</button>
+  </div>`;
+  document.body.appendChild(modal);
+}
+
+function saveChildConfig(max){
+  for(let i=0;i<max;i++){
+    const p=document.getElementById('cp-prenom-'+i)?.value.trim();
+    const a=document.getElementById('cp-age-'+i)?.value;
+    const r=document.getElementById('cp-role-'+i)?.value;
+    if(!children[i])children[i]={};
+    children[i].prenom=p||('Enfant '+(i+1));
+    children[i].age=a||'';
+    children[i].role=r||'enfant';
+  }
+  saveChildren();
+  document.getElementById('child-config-bg')?.remove();
+  renderSection();
+  // Update role switcher labels
+  renderRoles();
+}
+
 // Barre de démo pour tester les offres dans le dashboard
 function addDemoBar(){
   const bar=document.createElement('div');
