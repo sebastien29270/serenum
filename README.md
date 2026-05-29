@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0055)file:///C:/Users/sebas/Downloads/serenum-app%20(4).html -->
+<!-- saved from url=(0055)file:///C:/Users/sebas/Downloads/serenum-app%20(6).html -->
 <html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -136,10 +136,10 @@ h1,h2,h3,h4{font-family:'Cormorant Garamond',serif}
 .payment-overlay{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:200;display:flex;align-items:center;justify-content:center;padding:20px}
 .payment-modal{background:var(--white);border-radius:var(--radius-xl);padding:40px;max-width:520px;width:100%;max-height:90vh;overflow-y:auto}
 .payment-modal h3{font-size:28px;font-weight:300;margin-bottom:8px}
-.legal-check{display:flex;align-items:flex-start;gap:12px;padding:14px;border:1px solid var(--border);border-radius:10px;margin-bottom:10px;cursor:pointer;transition:all .2s}
+.legal-check{display:flex;align-items:flex-start;gap:12px;padding:14px;border:1px solid var(--border);border-radius:10px;margin-bottom:10px;transition:all .2s;cursor:default}
 .legal-check:hover{border-color:var(--sage-light)}
-.legal-check input[type=checkbox]{width:18px;height:18px;accent-color:var(--sage);flex-shrink:0;margin-top:2px;cursor:pointer}
-.legal-check label{font-size:13px;color:var(--text-muted);line-height:1.5;cursor:pointer}
+.legal-check input[type=checkbox]{width:20px;height:20px;min-width:20px;accent-color:var(--sage);flex-shrink:0;margin-top:2px;cursor:pointer}
+.legal-check label{font-size:13px;color:var(--text-muted);line-height:1.5;cursor:pointer;user-select:none}
 .legal-check label strong{color:var(--text)}
 .disclaimer-box{background:var(--cream-dark);border-radius:10px;padding:16px;margin:16px 0;border-left:3px solid var(--rose)}
 .disclaimer-box p{font-size:12px;color:var(--text-muted);line-height:1.6}
@@ -330,7 +330,7 @@ h1,h2,h3,h4{font-family:'Cormorant Garamond',serif}
         <div class="offre-icon" style="background:rgba(184,212,187,.3)">🌱</div>
         <div class="offre-name">Petites Pousses</div>
         <div class="offre-target">Pour les enfants de 6 à 11 ans</div>
-        <div class="offre-price">49,99€ <span>TTC</span></div>
+        <div class="offre-price">49€ <span>TTC</span></div>
         <div class="offre-price-note">Paiement unique · Accès illimité</div>
       </div>
       <div class="offre-body">
@@ -1057,7 +1057,7 @@ h1,h2,h3,h4{font-family:'Cormorant Garamond',serif}
 
       <p><strong>2.1 Offres et tarifs</strong></p>
       <ul>
-        <li><strong>Petites Pousses</strong> — 49,99 € TTC (TVA 20% incluse, soit 41,66 € HT)</li>
+        <li><strong>Petites Pousses</strong> — 49 € TTC (TVA 20% incluse, soit 40,83 € HT)</li>
         <li><strong>Cap Sérénité</strong> — 119,00 € TTC (99,17 € HT)</li>
         <li><strong>Famille Unie</strong> — 189,00 € TTC (157,50 € HT)</li>
         <li><strong>Intensif &amp; Harcèlement</strong> — 269,00 € TTC (224,17 € HT)</li>
@@ -1160,21 +1160,21 @@ h1,h2,h3,h4{font-family:'Cormorant Garamond',serif}
         <div style="font-size:36px;margin-bottom:8px" id="payment-icon">🌱</div>
         <h3 id="payment-title" style="font-size:26px;font-weight:300;margin-bottom:4px">Petites Pousses</h3>
         <p style="font-size:14px;color:var(--text-muted)" id="payment-subtitle">Accompagnement enfants 6-11 ans</p>
-        <div style="font-family:&#39;Cormorant Garamond&#39;,serif;font-size:38px;font-weight:300;margin:12px 0" id="payment-price-display">49,99€ <span style="font-size:18px;font-family:&#39;DM Sans&#39;,sans-serif">TTC</span></div>
+        <div style="font-family:&#39;Cormorant Garamond&#39;,serif;font-size:38px;font-weight:300;margin:12px 0" id="payment-price-display">49€ <span style="font-size:18px;font-family:&#39;DM Sans&#39;,sans-serif">TTC</span></div>
       </div>
 
       <div class="disclaimer-box">
         <p>⚠️ <strong>Rappel important :</strong> Je ne suis ni médecin, ni psychologue, ni thérapeute. Ces outils ne remplacent pas un suivi médical ou thérapeutique professionnel. Aucune guérison n'est garantie.</p>
       </div>
 
-      <div class="legal-check" onclick="toggleCheck(&#39;check-cgv&#39;)">
+      <div class="legal-check">
         <input type="checkbox" id="check-cgv" onchange="checkLegal()">
-        <label for="check-cgv" onclick="event.stopPropagation()"><strong>J'ai lu et j'accepte les CGV, les mentions légales et la politique de confidentialité (CNIL/RGPD)</strong> de Sérénum dans leur intégralité.</label>
+        <label for="check-cgv"><strong>J'ai lu et j'accepte les CGV, les mentions légales et la politique de confidentialité (CNIL/RGPD)</strong> de Sérénum dans leur intégralité.</label>
       </div>
 
-      <div class="legal-check" onclick="toggleCheck(&#39;check-retractation&#39;)">
+      <div class="legal-check">
         <input type="checkbox" id="check-retractation" onchange="checkLegal()">
-        <label for="check-retractation" onclick="event.stopPropagation()"><strong>Cette case vaut acceptation et renonciation expresse à mon droit de rétractation de 14 jours</strong> (art. L.221-28 13° Code de la consommation), en demandant l'exécution immédiate du contenu numérique.</label>
+        <label for="check-retractation"><strong>Cette case vaut acceptation et renonciation expresse à mon droit de rétractation de 14 jours</strong> (art. L.221-28 13° Code de la consommation), en demandant l'exécution immédiate du contenu numérique.</label>
       </div>
 
       <div id="legal-warning" style="font-size:12px;color:var(--rose);text-align:center;margin:8px 0;display:none">Vous devez cocher les deux cases pour continuer.</div>
@@ -1194,7 +1194,7 @@ h1,h2,h3,h4{font-family:'Cormorant Garamond',serif}
 
 <script>
 const offresData=[
-  {nom:'Petites Pousses',subtitle:'Accompagnement enfants 6-11 ans',prix:'49,99€',icon:'🌱',stripe:'https://buy.stripe.com/7sYfZi1jMcBD9643p2g7e0j'},
+  {nom:'Petites Pousses',subtitle:'Accompagnement enfants 6-11 ans',prix:'49€',icon:'🌱',stripe:'https://buy.stripe.com/7sYfZi1jMcBD9643p2g7e0j'},
   {nom:'Cap Sérénité',subtitle:'Accompagnement adolescents 12-18 ans',prix:'119€',icon:'🌊',stripe:'https://buy.stripe.com/3cI7sM8Me0SVaa8aRug7e0g'},
   {nom:'Famille Unie',subtitle:'Famille complète · 2 profils enfants',prix:'189€',icon:'⭐',stripe:'https://buy.stripe.com/3cI28s5A2cBDcigbVyg7e0h'},
   {nom:'Intensif & Harcèlement',subtitle:'Crises sévères + module harcèlement · 4 profils',prix:'269€',icon:'🛡️',stripe:'https://buy.stripe.com/6oU8wQ4vY6dfgyw0cQg7e0k'}
@@ -1323,11 +1323,6 @@ function openPayment(num){
 
 function closePayment(){document.getElementById('payment-overlay').classList.add('hidden');}
 
-function toggleCheck(id){
-  const cb=document.getElementById(id);
-  cb.checked=!cb.checked;
-  checkLegal();
-}
 
 function checkLegal(){
   const c1=document.getElementById('check-cgv').checked;
@@ -1420,7 +1415,7 @@ function saveJournal(role){
       <!-- OFFRE 1 -->
       <div style="border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:16px">
         <div style="background:rgba(184,212,187,.2);padding:16px 20px;display:flex;justify-content:space-between;align-items:center;cursor:pointer" onclick="toggleSection(&#39;o1&#39;)">
-          <div><span style="font-size:20px">🌱</span> <strong>Petites Pousses</strong> <span style="font-size:13px;color:var(--text-muted)">— 49,99€ · Enfants 6-11 ans</span></div>
+          <div><span style="font-size:20px">🌱</span> <strong>Petites Pousses</strong> <span style="font-size:13px;color:var(--text-muted)">— 49€ · Enfants 6-11 ans</span></div>
           <span id="arrow-o1" style="color:var(--text-muted)">▼</span>
         </div>
         <div id="section-o1" style="padding:20px;display:none">
