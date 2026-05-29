@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0057)file:///C:/Users/sebas/Downloads/serenum-final%20(2).html -->
+<!-- saved from url=(0057)file:///C:/Users/sebas/Downloads/serenum-final%20(3).html -->
 <html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -261,7 +261,7 @@ select{padding:8px 12px;border:1px solid var(--border);border-radius:8px;backgro
 <div id="page-home" class="page active">
   <div class="hero">
     <div>
-      <div class="hero-tag">Gestion du stress scolaire · Paiement unique</div>
+      <div class="hero-tag">Gestion du stress scolaire</div>
       <h1 class="hero-title">Quand l'école<br>devient<br><em>trop lourde</em></h1>
       <p class="hero-sub">Des outils concrets pour aider vos enfants à gérer l'anxiété scolaire, la pression des notes, et le harcèlement. Pensés par un parent, pour des parents.</p>
       <div style="display:flex;gap:12px;margin-bottom:20px">
@@ -313,7 +313,7 @@ select{padding:8px 12px;border:1px solid var(--border);border-radius:8px;backgro
 <!-- ═══════════════ PAGE OFFRES ═══════════════ -->
 <div id="page-offres" class="page">
   <div class="offres-head">
-    <div class="hero-tag" style="display:block;margin-bottom:12px">Paiement unique · Sans abonnement · Accès illimité</div>
+    <div class="hero-tag" style="display:block;margin-bottom:12px">Sans abonnement · Accès illimité</div>
     <h2 style="font-size:46px;font-weight:300;margin-bottom:12px">Choisissez votre programme</h2>
     <p style="font-size:15px;color:var(--text-m);line-height:1.6">Chaque offre contient des exercices <strong>100% exclusifs</strong>. Plus vous montez en gamme, plus les outils sont spécialisés et complets.</p>
   </div>
@@ -327,7 +327,7 @@ select{padding:8px 12px;border:1px solid var(--border);border-radius:8px;backgro
         <div class="offre-name">Petites Pousses</div>
         <div class="offre-desc">Le premier programme de respiration et de gestion des émotions pensé spécialement pour les enfants de primaire.</div>
         <div class="offre-price">49€ <span>TTC</span></div>
-        <div class="offre-note">Paiement unique · 1 profil enfant</div>
+        <div class="offre-note">Paiement unique · 2 profils enfants</div>
       </div>
       <div class="offre-body">
         <div class="roles"><span class="role-tag badge-sage">👨‍👩‍👧 Parent</span><span class="role-tag badge-sage">🧒 Enfant</span></div>
@@ -353,7 +353,7 @@ select{padding:8px 12px;border:1px solid var(--border);border-radius:8px;backgro
         <div class="offre-name">Cap Sérénité</div>
         <div class="offre-desc">Un programme complet pour les ados face à la pression des examens, des notes et des relations sociales complexes.</div>
         <div class="offre-price">119€ <span>TTC</span></div>
-        <div class="offre-note">Paiement unique · 1 profil ado</div>
+        <div class="offre-note">Paiement unique · 2 profils adolescents</div>
       </div>
       <div class="offre-body">
         <div class="roles"><span class="role-tag badge-teal">👨‍👩‍👧 Parent</span><span class="role-tag badge-teal">🧑 Ado</span></div>
@@ -380,11 +380,11 @@ select{padding:8px 12px;border:1px solid var(--border);border-radius:8px;backgro
         <div class="offre-name">Famille Unie</div>
         <div class="offre-desc">Pour toute la famille : enfants ET ados, avec des outils de communication parent-enfant et un premier module anti-harcèlement.</div>
         <div class="offre-price">189€ <span>TTC</span></div>
-        <div class="offre-note">Paiement unique · 2 profils enfants</div>
+        <div class="offre-note">Paiement unique · 3 profils enfants &amp; ados</div>
       </div>
       <div class="offre-body">
         <div class="roles"><span class="role-tag badge-gold">👨‍👩‍👧 Parent</span><span class="role-tag badge-gold">🧒 Enfant</span><span class="role-tag badge-gold">🧑 Ado</span></div>
-        <div class="plus-value">✦ En plus des offres précédentes : outils famille, ancrage corporel, relaxation clinique, module harcèlement, 2 profils enfants simultanés.</div>
+        <div class="plus-value">✦ En plus des offres précédentes : outils famille, ancrage corporel, relaxation clinique, module harcèlement, 3 profils enfants &amp; ados simultanés.</div>
         <ul class="features">
           <li><span class="check">✓</span>Ancrage sensoriel 5-4-3-2-1 (interrompt crise)</li>
           <li><span class="check">✓</span>Relaxation de Jacobson (contraction-relâchement clinique)</li>
@@ -393,7 +393,7 @@ select{padding:8px 12px;border:1px solid var(--border);border-radius:8px;backgro
           <li><span class="check">✓</span>Protocole dialogue parent-enfant (scripts par âge)</li>
           <li><span class="check">✓</span>Journal partagé famille (opt-in, enfant choisit)</li>
           <li><span class="check">✓</span>Module harcèlement : détection + scripts dialogue</li>
-          <li><span class="check">✓</span>Dashboard 2 profils + alertes avancées croisées</li>
+          <li><span class="check">✓</span>Dashboard 3 profils + alertes avancées croisées</li>
           <li><span class="check">✓</span>Plan d'action harcèlement 4 étapes</li>
         </ul>
         <button class="btn btn-gold" style="width:100%">Choisir Famille Unie →</button>
@@ -670,7 +670,7 @@ select{padding:8px 12px;border:1px solid var(--border);border-radius:8px;backgro
           <div class="creator-section"><div class="creator-section-title">Module harcèlement (version famille)</div>
             <div class="creator-item">Checklist 10 signaux · Scripts dialogue 6-11 ans et 12-18 ans · Plan action 4 étapes · Numéros utiles</div>
           </div>
-          <div class="creator-section"><div class="creator-section-title">Dashboard famille (2 profils)</div>
+          <div class="creator-section"><div class="creator-section-title">Dashboard famille (3 profils)</div>
             <div class="creator-item">2 enfants simultanés · Alertes croisées · Comparaison évolution · Graphiques croisés famille</div>
           </div>
         </div>
@@ -706,13 +706,13 @@ select{padding:8px 12px;border:1px solid var(--border);border-radius:8px;backgro
 // ═══════════ DATA ═══════════
 const OFFRES=[
   {name:'Petites Pousses',sub:'Enfants 6-11 ans',prix:'49€',icon:'🌱',color:'sage',stripe:'https://buy.stripe.com/7sYfZi1jMcBD9643p2g7e0j',
-   roles:['parent','enfant'],profiles:1,
+   roles:['parent','enfant'],profiles:2,
    nav:[{id:'overview',ico:'🏠',label:'Tableau de bord'},{id:'journal',ico:'📓',label:'Mon journal'},{id:'exercices',ico:'🫁',label:'Exercices'},{id:'evolution',ico:'📈',label:'Évolution'}]},
   {name:'Cap Sérénité',sub:'Adolescents 12-18 ans',prix:'119€',icon:'🌊',color:'teal',stripe:'https://buy.stripe.com/3cI7sM8Me0SVaa8aRug7e0g',
-   roles:['parent','ado'],profiles:1,
+   roles:['parent','ado'],profiles:2,
    nav:[{id:'overview',ico:'🏠',label:'Tableau de bord'},{id:'journal',ico:'📓',label:'Mon journal'},{id:'exercices',ico:'🫁',label:'Exercices'},{id:'tracker',ico:'📊',label:'Tracker stress'},{id:'evolution',ico:'📈',label:'Évolution'}]},
-  {name:'Famille Unie',sub:'Famille complète · 2 profils',prix:'189€',icon:'⭐',color:'gold',stripe:'https://buy.stripe.com/3cI28s5A2cBDcigbVyg7e0h',
-   roles:['parent','enfant','ado'],profiles:2,
+  {name:'Famille Unie',sub:'Famille complète · 3 profils',prix:'189€',icon:'⭐',color:'gold',stripe:'https://buy.stripe.com/3cI28s5A2cBDcigbVyg7e0h',
+   roles:['parent','enfant','ado'],profiles:3,
    nav:[{id:'overview',ico:'🏠',label:'Tableau de bord'},{id:'journal',ico:'📓',label:'Mon journal'},{id:'exercices',ico:'🫁',label:'Exercices'},{id:'harcelement',ico:'🛡️',label:'Harcèlement'},{id:'evolution',ico:'📈',label:'Évolution'}]},
   {name:'Intensif & Harcèlement',sub:'Crises sévères · Anti-harcèlement · 4 profils',prix:'269€',icon:'🛡️',color:'rose',stripe:'https://buy.stripe.com/6oU8wQ4vY6dfgyw0cQg7e0k',
    roles:['parent','enfant','ado'],profiles:4,
@@ -986,7 +986,7 @@ function renderJournalParent(){
   <div class="grid2">
     <div class="card">
       <div class="card-title">Observation du jour</div>
-      <select id="j-enfant" style="width:100%;margin-bottom:12px">${OFFRES[currentOffre].profiles>1?`<option>${childLabel(0)}${children[0]?.age?' ('+children[0].age+' ans)':''}</option><option>${childLabel(1)}${children[1]?.age?' ('+children[1].age+' ans)':''}</option>`:`<option>${childLabel(0)}</option>`}</select>
+      <select id="j-enfant" style="width:100%;margin-bottom:12px">${Array.from({length:OFFRES[currentOffre].profiles},(_,i)=>`<option>${childLabel(i)}${children[i]?.age?' ('+children[i].age+' ans)':''}</option>`).join('')}</select>
       <div style="margin-bottom:10px">
         <div style="font-size:13px;color:var(--text-m);margin-bottom:6px">Humeur observée :</div>
         <div class="mood-row">
@@ -1601,28 +1601,41 @@ function childLabel(idx){
 
 function openChildConfig(){
   const max=OFFRES[currentOffre].profiles;
+  const offreIdx=currentOffre;
+  // Types par défaut selon l'offre
+  const defaultRoles={
+    0:['enfant','enfant'],           // Petites Pousses : 2 enfants
+    1:['ado','ado'],                  // Cap Sérénité : 2 ados
+    2:['enfant','ado','ado'],         // Famille Unie : 1 enfant + 2 ados
+    3:['enfant','enfant','ado','ado'] // Intensif : 2 enfants + 2 ados
+  };
+  const defaults=defaultRoles[offreIdx]||[];
   const modal=document.createElement('div');
   modal.id='child-config-bg';
   modal.className='modal-bg';
   modal.style.zIndex='400';
-  modal.innerHTML=`<div class="modal" style="max-width:440px">
+  modal.innerHTML=`<div class="modal" style="max-width:460px">
     <h3 style="font-size:24px;font-weight:300;margin-bottom:6px">👨‍👩‍👧 Profils enfants</h3>
-    <p style="font-size:14px;color:var(--text-m);margin-bottom:20px">Personnalisez les prénoms et âges affichés dans l'espace.</p>
-    ${Array.from({length:max},(_,i)=>`
-    <div style="background:var(--cream-d);border-radius:12px;padding:16px;margin-bottom:12px">
-      <div style="font-size:12px;color:var(--text-l);text-transform:uppercase;letter-spacing:.5px;margin-bottom:10px">Profil ${i+1}</div>
-      <div style="display:grid;grid-template-columns:1fr 80px;gap:10px;margin-bottom:10px">
-        <div><label style="font-size:13px;color:var(--text-m);display:block;margin-bottom:4px">Prénom</label>
-          <input type="text" id="cp-prenom-${i}" value="${children[i]?.prenom||''}" placeholder="Prénom" style="width:100%;padding:9px 12px;border:1px solid var(--border);border-radius:8px;font-size:14px"/></div>
-        <div><label style="font-size:13px;color:var(--text-m);display:block;margin-bottom:4px">Âge</label>
-          <input type="number" id="cp-age-${i}" value="${children[i]?.age||''}" placeholder="9" min="4" max="18" style="width:100%;padding:9px 12px;border:1px solid var(--border);border-radius:8px;font-size:14px"/></div>
-      </div>
-      <div><label style="font-size:13px;color:var(--text-m);display:block;margin-bottom:4px">Espace de connexion</label>
-        <select id="cp-role-${i}" style="width:100%;padding:9px;border:1px solid var(--border);border-radius:8px">
-          <option value="enfant"${(children[i]?.role||'enfant')==='enfant'?' selected':''}>🧒 Interface enfant (6-11 ans)</option>
-          <option value="ado"${children[i]?.role==='ado'?' selected':''}>🧑 Interface adolescent (12-18 ans)</option>
-        </select></div>
-    </div>`).join('')}
+    <p style="font-size:14px;color:var(--text-m);margin-bottom:20px">Personnalisez les prénoms et âges de chaque profil.</p>
+    ${Array.from({length:max},(_,i)=>{
+      const defRole=children[i]?.role||defaults[i]||'enfant';
+      return `<div style="background:var(--cream-d);border-radius:12px;padding:16px;margin-bottom:12px">
+        <div style="font-size:12px;color:var(--text-l);text-transform:uppercase;letter-spacing:.5px;margin-bottom:10px">
+          Profil ${i+1} — ${defRole==='ado'?'🧑 Adolescent':'🧒 Enfant'} (par défaut)
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 80px;gap:10px;margin-bottom:10px">
+          <div><label style="font-size:13px;color:var(--text-m);display:block;margin-bottom:4px">Prénom</label>
+            <input type="text" id="cp-prenom-${i}" value="${children[i]?.prenom||''}" placeholder="Prénom de l'enfant" style="width:100%;padding:9px 12px;border:1px solid var(--border);border-radius:8px;font-size:14px"/></div>
+          <div><label style="font-size:13px;color:var(--text-m);display:block;margin-bottom:4px">Âge</label>
+            <input type="number" id="cp-age-${i}" value="${children[i]?.age||''}" placeholder="${defRole==='ado'?'14':'9'}" min="4" max="18" style="width:100%;padding:9px 12px;border:1px solid var(--border);border-radius:8px;font-size:14px"/></div>
+        </div>
+        <div><label style="font-size:13px;color:var(--text-m);display:block;margin-bottom:4px">Interface</label>
+          <select id="cp-role-${i}" style="width:100%;padding:9px;border:1px solid var(--border);border-radius:8px">
+            <option value="enfant"${(children[i]?.role||defRole)==='enfant'?' selected':''}>🧒 Enfant (6-11 ans)</option>
+            <option value="ado"${(children[i]?.role||defRole)==='ado'?' selected':''}>🧑 Adolescent (12-18 ans)</option>
+          </select></div>
+      </div>`;
+    }).join('')}
     <button class="btn btn-sage" style="width:100%;justify-content:center;margin-top:4px" onclick="saveChildConfig(${max})">Enregistrer les profils</button>
     <button class="btn btn-out" style="width:100%;justify-content:center;margin-top:8px" onclick="document.getElementById('child-config-bg').remove()">Annuler</button>
   </div>`;
