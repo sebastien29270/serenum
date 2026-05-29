@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0055)file:///C:/Users/sebas/Downloads/serenum-app%20(3).html -->
+<!-- saved from url=(0055)file:///C:/Users/sebas/Downloads/serenum-app%20(4).html -->
 <html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1387,6 +1387,7 @@ function saveJournal(role){
   section.appendChild(div);
   setTimeout(()=>div.remove(),3000);
 }
+</script>
 
 <!-- MODAL CRÉATEUR SECRET -->
 <div id="creator-overlay" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:500;align-items:center;justify-content:center;padding:20px">
@@ -1398,7 +1399,7 @@ function saveJournal(role){
         <p style="font-size:13px;color:var(--text-muted)">Entrez votre code PIN</p>
       </div>
       <div style="display:flex;gap:10px;justify-content:center;margin-bottom:20px">
-        <input type="password" id="pin-input" maxlength="6" placeholder="••••" style="width:120px;text-align:center;font-size:24px;letter-spacing:8px;padding:12px;border:2px solid var(--border);border-radius:12px;font-family:'DM Sans',sans-serif" oninput="checkPin()" onkeydown="if(event.key==='Enter')checkPin(true)"/>
+        <input type="password" id="pin-input" maxlength="6" placeholder="••••" style="width:120px;text-align:center;font-size:24px;letter-spacing:8px;padding:12px;border:2px solid var(--border);border-radius:12px;font-family:&#39;DM Sans&#39;,sans-serif" oninput="checkPin()" onkeydown="if(event.key===&#39;Enter&#39;)checkPin(true)">
       </div>
       <div id="pin-error" style="text-align:center;font-size:13px;color:var(--rose);margin-bottom:12px;display:none">Code incorrect. Réessayez.</div>
       <div style="display:flex;gap:8px;justify-content:center">
@@ -1418,7 +1419,7 @@ function saveJournal(role){
 
       <!-- OFFRE 1 -->
       <div style="border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:16px">
-        <div style="background:rgba(184,212,187,.2);padding:16px 20px;display:flex;justify-content:space-between;align-items:center;cursor:pointer" onclick="toggleSection('o1')">
+        <div style="background:rgba(184,212,187,.2);padding:16px 20px;display:flex;justify-content:space-between;align-items:center;cursor:pointer" onclick="toggleSection(&#39;o1&#39;)">
           <div><span style="font-size:20px">🌱</span> <strong>Petites Pousses</strong> <span style="font-size:13px;color:var(--text-muted)">— 49,99€ · Enfants 6-11 ans</span></div>
           <span id="arrow-o1" style="color:var(--text-muted)">▼</span>
         </div>
@@ -1434,7 +1435,7 @@ function saveJournal(role){
               </ul>
             </div>
             <div>
-              <div style="font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--sage);margin-bottom:10px">Exercices & techniques</div>
+              <div style="font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--sage);margin-bottom:10px">Exercices &amp; techniques</div>
               <ul style="font-size:13px;color:var(--text-muted);line-height:2;padding-left:16px">
                 <li><strong>Ma tortue intérieure</strong> — visualisation guidée 8 min. L'enfant crée une "carapace" imaginaire refuge.</li>
                 <li><strong>Journal illustré des émotions</strong> — saisie quotidienne humeur + école + amis + texte libre. Privé, contrôle parental.</li>
@@ -1454,7 +1455,7 @@ function saveJournal(role){
 
       <!-- OFFRE 2 -->
       <div style="border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:16px">
-        <div style="background:rgba(168,204,204,.2);padding:16px 20px;display:flex;justify-content:space-between;align-items:center;cursor:pointer" onclick="toggleSection('o2')">
+        <div style="background:rgba(168,204,204,.2);padding:16px 20px;display:flex;justify-content:space-between;align-items:center;cursor:pointer" onclick="toggleSection(&#39;o2&#39;)">
           <div><span style="font-size:20px">🌊</span> <strong>Cap Sérénité</strong> <span style="font-size:13px;color:var(--text-muted)">— 119€ · Adolescents 12-18 ans</span></div>
           <span id="arrow-o2" style="color:var(--text-muted)">▼</span>
         </div>
@@ -1469,7 +1470,7 @@ function saveJournal(role){
               </ul>
             </div>
             <div>
-              <div style="font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--teal);margin-bottom:10px">Exercices & techniques</div>
+              <div style="font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--teal);margin-bottom:10px">Exercices &amp; techniques</div>
               <ul style="font-size:13px;color:var(--text-muted);line-height:2;padding-left:16px">
                 <li><strong>Carnet des victoires</strong> — noter chaque soir 3 petites réussites de la journée pour reconstruire la confiance. Quotidien.</li>
                 <li><strong>Journal émotionnel ado</strong> — slider stress /10, humeur, sommeil, texte libre confidentiel. Parents voient seulement "a écrit".</li>
@@ -1483,7 +1484,7 @@ function saveJournal(role){
 
       <!-- OFFRE 3 -->
       <div style="border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:16px">
-        <div style="background:rgba(232,212,160,.2);padding:16px 20px;display:flex;justify-content:space-between;align-items:center;cursor:pointer" onclick="toggleSection('o3')">
+        <div style="background:rgba(232,212,160,.2);padding:16px 20px;display:flex;justify-content:space-between;align-items:center;cursor:pointer" onclick="toggleSection(&#39;o3&#39;)">
           <div><span style="font-size:20px">⭐</span> <strong>Famille Unie</strong> <span style="font-size:13px;color:var(--text-muted)">— 189€ · Famille complète · 2 profils</span></div>
           <span id="arrow-o3" style="color:var(--text-muted)">▼</span>
         </div>
@@ -1517,8 +1518,8 @@ function saveJournal(role){
 
       <!-- OFFRE 4 -->
       <div style="border:2px solid var(--rose-light);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:16px">
-        <div style="background:rgba(232,187,187,.2);padding:16px 20px;display:flex;justify-content:space-between;align-items:center;cursor:pointer" onclick="toggleSection('o4')">
-          <div><span style="font-size:20px">⚡</span> <strong>Intensif & Harcèlement</strong> <span style="font-size:13px;color:var(--text-muted)">— 269€ · Crises sévères · 4 profils</span></div>
+        <div style="background:rgba(232,187,187,.2);padding:16px 20px;display:flex;justify-content:space-between;align-items:center;cursor:pointer" onclick="toggleSection(&#39;o4&#39;)">
+          <div><span style="font-size:20px">⚡</span> <strong>Intensif &amp; Harcèlement</strong> <span style="font-size:13px;color:var(--text-muted)">— 269€ · Crises sévères · 4 profils</span></div>
           <span id="arrow-o4" style="color:var(--text-muted)">▼</span>
         </div>
         <div id="section-o4" style="padding:20px;display:none">
