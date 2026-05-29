@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0057)file:///C:/Users/sebas/Downloads/serenum-final%20(3).html -->
+<!-- saved from url=(0057)file:///C:/Users/sebas/Downloads/serenum-final%20(4).html -->
 <html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -1659,22 +1659,14 @@ function saveChildConfig(max){
   renderRoles();
 }
 
-// Barre de démo pour tester les offres dans le dashboard
-function addDemoBar(){
-  const bar=document.createElement('div');
-  bar.id='demo-bar';
-  bar.style.cssText='position:fixed;bottom:0;left:0;right:0;background:rgba(44,44,42,.9);padding:8px 20px;display:flex;align-items:center;gap:12px;z-index:150;font-size:13px;color:#fff;backdrop-filter:blur(8px)';
-  bar.innerHTML=`<span style="opacity:.6">Mode démo — Simuler une offre :</span>${OFFRES.map((o,i)=>`<button onclick="currentOffre=${i};currentRole='parent';currentSection='overview';if(document.getElementById('page-dash').classList.contains('active'))initDash()" style="padding:5px 14px;border-radius:50px;border:1px solid rgba(255,255,255,.3);background:${i===currentOffre?'#7A9E7E':'transparent'};color:#fff;cursor:pointer;font-family:'DM Sans',sans-serif;font-size:12px" id="demo-btn-${i}">${o.icon} ${o.name}</button>`).join('')}`;
-  document.body.appendChild(bar);
-}
-addDemoBar();
+
 
 // Init
 document.addEventListener('DOMContentLoaded',()=>{
   initDash();
 });
 initDash();
-</script><div id="demo-bar" style="position: fixed; bottom: 0px; left: 0px; right: 0px; background: rgba(44, 44, 42, 0.9); padding: 8px 20px; display: flex; align-items: center; gap: 12px; z-index: 150; font-size: 13px; color: rgb(255, 255, 255); backdrop-filter: blur(8px);"><span style="opacity:.6">Mode démo — Simuler une offre :</span><button onclick="currentOffre=0;currentRole=&#39;parent&#39;;currentSection=&#39;overview&#39;;if(document.getElementById(&#39;page-dash&#39;).classList.contains(&#39;active&#39;))initDash()" style="padding:5px 14px;border-radius:50px;border:1px solid rgba(255,255,255,.3);background:transparent;color:#fff;cursor:pointer;font-family:&#39;DM Sans&#39;,sans-serif;font-size:12px" id="demo-btn-0">🌱 Petites Pousses</button><button onclick="currentOffre=1;currentRole=&#39;parent&#39;;currentSection=&#39;overview&#39;;if(document.getElementById(&#39;page-dash&#39;).classList.contains(&#39;active&#39;))initDash()" style="padding:5px 14px;border-radius:50px;border:1px solid rgba(255,255,255,.3);background:transparent;color:#fff;cursor:pointer;font-family:&#39;DM Sans&#39;,sans-serif;font-size:12px" id="demo-btn-1">🌊 Cap Sérénité</button><button onclick="currentOffre=2;currentRole=&#39;parent&#39;;currentSection=&#39;overview&#39;;if(document.getElementById(&#39;page-dash&#39;).classList.contains(&#39;active&#39;))initDash()" style="padding:5px 14px;border-radius:50px;border:1px solid rgba(255,255,255,.3);background:#7A9E7E;color:#fff;cursor:pointer;font-family:&#39;DM Sans&#39;,sans-serif;font-size:12px" id="demo-btn-2">⭐ Famille Unie</button><button onclick="currentOffre=3;currentRole=&#39;parent&#39;;currentSection=&#39;overview&#39;;if(document.getElementById(&#39;page-dash&#39;).classList.contains(&#39;active&#39;))initDash()" style="padding:5px 14px;border-radius:50px;border:1px solid rgba(255,255,255,.3);background:transparent;color:#fff;cursor:pointer;font-family:&#39;DM Sans&#39;,sans-serif;font-size:12px" id="demo-btn-3">🛡️ Intensif &amp; Harcèlement</button></div>
+</script>
 
 
 </body></html>
