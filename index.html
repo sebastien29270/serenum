@@ -35,7 +35,9 @@ h1,h2,h3,h4{font-family:'Cormorant Garamond',serif}
 .nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(250,247,242,.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 40px;height:64px;display:flex;align-items:center;justify-content:space-between}
 .nav-logo{font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:300;color:var(--sage-d);letter-spacing:1px;cursor:pointer}
 .nav-logo em{color:var(--sage);font-style:italic}
-.nav-links{display:flex;gap:4px;align-items:center}
+.nav-links{display:flex;gap:4px;align-items:center;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;max-width:100%}
+.nav-links::-webkit-scrollbar{display:none}
+.nav-link{flex-shrink:0}
 .nav-link{padding:8px 16px;border-radius:50px;cursor:pointer;font-size:14px;color:var(--text-m);transition:all .2s}
 .nav-link:hover,.nav-link.active{background:var(--cream-d);color:var(--text)}
 /* PAGES */
@@ -258,6 +260,7 @@ select{padding:8px 12px;border:1px solid var(--border);border-radius:8px;backgro
     <div class="nav-link" onclick="goPage(&#39;offres&#39;)">Mes offres</div>
     <div class="nav-link" onclick="goPage(&#39;dash&#39;)">Espace membre</div>
     <div class="nav-link" onclick="goPage(&#39;legal&#39;)">Mentions légales</div>
+    <div class="nav-link" onclick="goPage(&#39;blog&#39;)">Conseils</div>
   </div>
 </nav>
 
@@ -610,6 +613,52 @@ select{padding:8px 12px;border:1px solid var(--border);border-radius:8px;backgro
     </div>
     <div style="text-align:center;padding:24px;background:var(--cream-d);border-radius:var(--rl);margin-top:24px">
       <p style="font-size:12px;color:var(--text-l)">Mis à jour le 29 mai 2026 · Sébastien GARCIA · Entrepreneur individuel · SIREN 990 963 852<br>28 Rue du Maroc, 29270 Carhaix-Plouguer · <span onclick="handleEmailClick()" style="cursor:pointer;text-decoration:underline">sebastien.garcia29@outlook.fr</span></p>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════ PAGE BLOG / ARTICLE ═══════════════ -->
+<div id="page-blog" class="page">
+  <div class="legal-wrap">
+    <div style="margin-bottom:32px">
+      <div class="hero-tag" style="display:block;margin-bottom:8px">Gestion du stress scolaire</div>
+      <h2 style="font-size:44px;font-weight:300;margin-bottom:6px;font-family:'Cormorant Garamond',serif">Mon enfant a peur d'aller à l'école : que faire ?</h2>
+    </div>
+
+    <div class="legal-sec" style="margin-bottom:24px">
+      <p style="font-size:16px;line-height:1.8;color:var(--text-m)">Il y a ce moment, le dimanche soir, où le visage de votre enfant change. Il ne dit peut-être rien. Mais vous le voyez : les épaules qui se referment, les questions qui reviennent en boucle, le mal de ventre qui arrive sans prévenir. Et vous, vous restez là, à chercher les mots.</p>
+      <p style="font-size:16px;line-height:1.8;color:var(--text-m);margin-top:16px">Je suis passé par là. Pas en tant que professionnel, mais en tant que parent. Et ce que j'ai appris, je le partage ici — pas pour donner des leçons, mais parce que ça m'a aidé, et que ça peut vous aider aussi.</p>
+    </div>
+
+    <div class="legal-sec" style="margin-bottom:24px">
+      <h3>Ce n'est (presque) jamais "juste dans sa tête"</h3>
+      <p>La première chose à comprendre, c'est que la peur de l'école n'est pas un caprice. Un enfant qui a peur ressent quelque chose de très réel dans son corps : le cœur qui s'accélère, la gorge serrée, parfois de vraies douleurs au ventre. Ce n'est pas qu'il "en fait trop". C'est son système nerveux qui réagit à une source de stress — une évaluation, une relation compliquée avec un camarade, la peur de décevoir, ou parfois quelque chose de plus grave, comme du harcèlement.</p>
+      <p>Avant de chercher une solution, il faut d'abord accueillir ce qu'il ressent, sans minimiser. "Ce n'est rien" ou "tu n'as pas de raison d'avoir peur" sont des phrases qui partent d'une bonne intention, mais qui ferment souvent la porte au dialogue.</p>
+    </div>
+
+    <div class="legal-sec" style="margin-bottom:24px">
+      <h3>Ce qui a vraiment aidé, chez nous</h3>
+      <p>Ce qui a changé les choses, ce n'est pas un grand discours. C'est de lui donner, concrètement, un outil qu'il pouvait utiliser lui-même, au moment où la panique montait — sans avoir besoin de moi à côté de lui.</p>
+      <p>Une respiration simple, répétée à la maison jusqu'à ce qu'elle devienne un réflexe. Rien de compliqué : quelques secondes pour inspirer, une pause, une expiration plus longue. La première fois que mon fils me l'a racontée après l'avoir utilisée tout seul, en classe, avant un exercice qui l'angoissait, j'ai compris que ce n'était pas à moi de porter son stress à sa place — mais de lui donner les moyens d'y faire face, même quand je ne suis pas là.</p>
+    </div>
+
+    <div class="legal-sec" style="margin-bottom:24px">
+      <h3>Trois choses à essayer dès ce soir</h3>
+      <ul>
+        <li><strong>Nommez ce qu'il ressent, sans le corriger.</strong> "Je vois que tu es inquiet pour demain" ouvre la discussion. "Tu n'as pas de raison d'être inquiet" la referme.</li>
+        <li><strong>Cherchez avec lui le moment précis où ça se déclenche.</strong> Est-ce le matin, en arrivant ? La veille d'un contrôle ? Une personne en particulier ? Plus vous identifiez le déclencheur, plus vous pourrez agir dessus.</li>
+        <li><strong>Donnez-lui un outil qu'il peut utiliser seul.</strong> Une respiration, un geste, un mot qu'il se dit à lui-même. L'objectif n'est pas de faire disparaître le stress — c'est de lui apprendre à le traverser.</li>
+      </ul>
+    </div>
+
+    <div class="legal-sec" style="margin-bottom:24px">
+      <h3>Et si ça ne suffit pas</h3>
+      <p>Ces outils aident beaucoup d'enfants à retrouver un peu de calme au quotidien. Mais ils ne remplacent jamais un avis médical ou psychologique si la peur devient envahissante, si elle s'accompagne de troubles du sommeil importants, ou si elle dure depuis longtemps sans amélioration. Dans ce cas, un médecin ou un psychologue reste le bon interlocuteur.</p>
+    </div>
+
+    <div class="hl-box" style="font-style:italic;margin-bottom:24px">
+      <p style="font-size:14px">Je ne suis ni médecin ni psychologue — juste un parent qui a cherché, et trouvé, des outils concrets. C'est pour ça que j'ai créé <strong>Sérénum</strong>, un parcours guidé étape par étape pour aider les enfants (6-11 ans) à transformer le stress scolaire en confiance, à leur rythme.</p>
+      <button class="btn btn-sage" style="margin-top:12px" onclick="goPage('offres')">Découvrir le parcours Petites Pousses →</button>
     </div>
   </div>
 </div>
