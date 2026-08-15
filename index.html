@@ -268,6 +268,7 @@ select{padding:8px 12px;border:1px solid var(--border);border-radius:8px;backgro
   <div class="nav-links">
     <div class="nav-link" onclick="goPage(&#39;home&#39;)">Accueil</div>
     <div class="nav-link" onclick="goPage(&#39;offres&#39;)">Mes offres</div>
+    <div class="btn btn-sage btn-sm" style="margin-left:8px" onclick="goPage(&#39;essai&#39;)">✨ Essai gratuit</div>
     <div class="nav-link" onclick="goPage(&#39;dash&#39;)">Espace membre</div>
     <div class="nav-link" onclick="goPage(&#39;legal&#39;)">Mentions légales</div>
     <a class="nav-link" href="mon-enfant-a-peur-decole.html" style="text-decoration:none">Conseils</a>
@@ -288,6 +289,14 @@ select{padding:8px 12px;border:1px solid var(--border);border-radius:8px;backgro
       <div class="disclaimer">⚠️ <strong>Important :</strong> Je ne suis ni médecin, ni psychologue, ni thérapeute. Je suis un parent qui partage ce qui a fonctionné pour son fils. Ces outils ne remplacent aucun suivi médical ou thérapeutique. Aucune guérison n'est garantie.</div>
     </div>
     <div><div class="orb"><div class="orb-text">Inspire<br>doucement</div></div></div>
+  </div>
+
+  <div style="max-width:1100px;margin:0 auto 60px;padding:0 40px">
+    <div style="background:linear-gradient(135deg,var(--sage),var(--sage-d));border-radius:var(--rxl);padding:40px 48px;text-align:center;box-shadow:0 20px 50px rgba(122,158,126,.3)" onclick="goPage('essai')">
+      <div style="font-size:34px;font-weight:300;color:#fff;font-family:'Cormorant Garamond',serif;margin-bottom:12px;line-height:1.3">Essayez gratuitement, sans carte bancaire</div>
+      <p style="color:rgba(255,255,255,.9);font-size:16px;margin-bottom:24px">8 outils concrets à tester dès maintenant, tirés de nos parcours — pour voir si ça peut vraiment aider votre enfant.</p>
+      <button class="btn" style="background:#fff;color:var(--sage-d);font-size:16px;padding:14px 32px;font-weight:600" onclick="event.stopPropagation();goPage('essai')">✨ Essayer gratuitement</button>
+    </div>
   </div>
 
   <div class="stats">
@@ -670,6 +679,83 @@ select{padding:8px 12px;border:1px solid var(--border);border-radius:8px;backgro
       <p style="font-size:14px">Je ne suis ni médecin ni psychologue — juste un parent qui a cherché, et trouvé, des outils concrets. C'est pour ça que j'ai créé <strong>Sérénum</strong>, un parcours guidé étape par étape pour aider les enfants (6-11 ans) à transformer le stress scolaire en confiance, à leur rythme.</p>
       <button class="btn btn-sage" style="margin-top:12px" onclick="goPage('offres')">Découvrir le parcours Petites Pousses →</button>
     </div>
+  </div>
+</div>
+
+<!-- ═══════════════ PAGE ESSAI GRATUIT ═══════════════ -->
+<div id="page-essai" class="page">
+  <div class="offres-head">
+    <div class="hero-tag" style="display:block;margin-bottom:12px">100% gratuit · Aucune inscription</div>
+    <h2 style="font-size:42px;font-weight:300;margin-bottom:12px">Essayez avant de choisir</h2>
+    <p style="font-size:15px;color:var(--text-m);line-height:1.6">Voici 2-3 vrais outils tirés de chaque parcours, à essayer librement. Pas de compte à créer, pas de carte bancaire — juste pour voir si ça peut aider votre enfant.</p>
+  </div>
+
+  <div style="max-width:900px;margin:0 auto;padding:0 40px 80px">
+
+    <!-- BLOC 1 : PETITES POUSSES -->
+    <div style="margin-bottom:48px">
+      <div class="offre-badge badge-sage" style="margin-bottom:16px">🌱 Enfants 6-11 ans</div>
+      <div class="ex-card">
+        <span class="ex-tag badge-sage">Gratuit</span>
+        <h4>🫧 Respiration "Bulle de savon"</h4>
+        <p>Inspire 4 secondes par le nez. Puis expire très lentement pendant 6 secondes, comme si tu soufflais une bulle de savon géante sans la faire éclater. Texte à dire à votre enfant : "On va faire la plus belle bulle du monde. Si tu souffles trop fort, elle éclate ! Alors tout doux… toouut doux…" — Répétez 3 fois.</p>
+      </div>
+      <div class="ex-card">
+        <span class="ex-tag badge-sage">Gratuit</span>
+        <h4>🐢 Ma tortue intérieure (visualisation, 8 min)</h4>
+        <p>Votre enfant ferme les yeux. Faites-lui imaginer qu'il a une carapace magique et invisible, rien qu'à lui. Quand le monde est trop fort, trop bruyant, trop stressant, il peut s'y réfugier. À l'intérieur, il fait chaud, c'est doux, personne ne peut l'embêter. Demandez-lui de décrire sa carapace : sa couleur, ce qu'il y met. Il peut y "aller" mentalement à tout moment, même en classe.</p>
+      </div>
+      <button class="btn btn-sage btn-sm" onclick="goPage('offres')">Voir le parcours complet Petites Pousses (49€) →</button>
+    </div>
+
+    <!-- BLOC 2 : CAP SÉRÉNITÉ -->
+    <div style="margin-bottom:48px">
+      <div class="offre-badge badge-teal" style="margin-bottom:16px">🌊 Ados 12-18 ans</div>
+      <div class="ex-card">
+        <span class="ex-tag badge-teal">Gratuit</span>
+        <h4>🌙 Respiration 4-7-8</h4>
+        <p>Inspire par le nez 4 secondes → retiens ton souffle 7 secondes → expire lentement par la bouche 8 secondes. L'expiration longue est la clé : elle ralentit le cœur. À faire 4 cycles, avant un contrôle, avant de dormir, ou en cas de stress aigu.</p>
+      </div>
+      <div class="ex-card">
+        <span class="ex-tag badge-teal">Gratuit</span>
+        <h4>⛔ Technique STOP (pleine conscience)</h4>
+        <p><strong>S</strong>top — arrête-toi, fige le mouvement. <strong>T</strong>ake a breath — prends une respiration profonde. <strong>O</strong>bserve — qu'est-ce qui se passe dans mon corps ? Dans ma tête ? <strong>P</strong>roceed — repars en ayant choisi ta réaction au lieu de la subir. 2-3 minutes, interrompt les pensées automatiques anxieuses.</p>
+      </div>
+      <button class="btn btn-teal btn-sm" onclick="goPage('offres')">Voir le parcours complet Cap Sérénité (119€) →</button>
+    </div>
+
+    <!-- BLOC 3 : FAMILLE UNIE -->
+    <div style="margin-bottom:48px">
+      <div class="offre-badge badge-gold" style="margin-bottom:16px">⭐ Famille</div>
+      <div class="ex-card">
+        <span class="ex-tag badge-gold">Gratuit</span>
+        <h4>🖐️ Ancrage 5-4-3-2-1</h4>
+        <p>Ramène immédiatement au présent en cas d'angoisse. Nommez à voix haute : <strong>5</strong> choses que vous voyez · <strong>4</strong> choses que vous entendez · <strong>3</strong> choses que vous touchez · <strong>2</strong> choses que vous sentez · <strong>1</strong> chose que vous goûtez. Interrompt net une spirale anxieuse. 3-5 min, tous âges.</p>
+      </div>
+      <div class="ex-card">
+        <span class="ex-tag badge-gold">Gratuit</span>
+        <h4>🗣️ Script pour ouvrir le dialogue (6-11 ans)</h4>
+        <p>Le soir, calmement : <em>"Tu sais, ma mission de parent c'est d'être là pour toi, même pour les choses difficiles. Est-ce qu'il y a quelque chose qui te rend triste à l'école en ce moment ?"</em> S'il minimise : <em>"J'ai remarqué que tu sembles moins heureux quand tu rentres. Je ne te juge pas, je veux juste comprendre."</em></p>
+      </div>
+      <button class="btn btn-gold btn-sm" onclick="goPage('offres')">Voir le parcours complet Famille Unie (189€) →</button>
+    </div>
+
+    <!-- BLOC 4 : INTENSIF & HARCÈLEMENT -->
+    <div>
+      <div class="offre-badge badge-rose" style="margin-bottom:16px">🛡️ Crises &amp; harcèlement</div>
+      <div class="ex-card">
+        <span class="ex-tag badge-rose">Gratuit</span>
+        <h4>📦 Box Breathing 4-4-4-4</h4>
+        <p>Technique des forces spéciales pour garder le contrôle sous pression extrême. Inspire 4s → retiens 4s → expire 4s → pause poumons vides 4s. Répétez 5 fois. Pour les crises de stress intenses.</p>
+      </div>
+      <div class="ex-card">
+        <span class="ex-tag badge-rose">Gratuit</span>
+        <h4>🗣️ La phrase qui coupe court (6-11 ans)</h4>
+        <p>Une réponse neutre, ni agressive ni soumise, qui désamorce le harceleur (qui cherche une réaction) : <em>"C'est ton opinion."</em> — puis partir calmement, sans courir. Entraînez-vous avec votre enfant en jeu de rôle jusqu'à ce que ça devienne un réflexe.</p>
+      </div>
+      <button class="btn btn-rose btn-sm" onclick="goPage('offres')">Voir l'accompagnement complet (269€) →</button>
+    </div>
+
   </div>
 </div>
 
