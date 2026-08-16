@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3K6QTZN0F4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-3K6QTZN0F4');
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon enfant est harcelé à l'école : les signes et comment agir — Sérénum</title>
+  <meta name="description" content="700 000 élèves sont harcelés chaque année en France. Les signes qui doivent alerter, pourquoi ils se taisent, et le plan d'action concret d'un parent qui est passé par là.">
+  <style>
+    body{background-color:#F7F1E8;color:#2b2b2b;font-family:Georgia,'Times New Roman',serif;line-height:1.7;margin:0;padding:0}
+    .container{max-width:680px;margin:0 auto;padding:60px 24px}
+    .eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:13px;color:#C47B7B;font-family:Arial,sans-serif;margin-bottom:16px}
+    h1{font-size:2.3rem;margin-bottom:32px;color:#1a1a1a}
+    h2{font-size:1.5rem;margin-top:40px;color:#1a1a1a}
+    p{font-size:1.1rem;margin-bottom:20px}
+    ul,ol{padding-left:24px}
+    li{margin-bottom:12px;font-size:1.1rem}
+    .stat-box{display:flex;align-items:center;gap:24px;background:#fff;border:1px solid #E0DDD5;border-radius:16px;padding:24px 28px;margin:32px 0}
+    .stat-box .num{font-family:'Cormorant Garamond',Georgia,serif;font-size:2.6rem;font-weight:300;color:#C47B7B;line-height:1;flex-shrink:0}
+    .stat-box .txt{font-size:0.95rem;color:#555;font-family:Arial,sans-serif;line-height:1.5}
+    .dark-box{background:#1A1C18;color:#fff;border-radius:16px;padding:32px;margin:32px 0}
+    .dark-box p{color:rgba(255,255,255,.82)}
+    .urgence-box{background:rgba(196,123,123,.12);border:1px solid #C47B7B;border-radius:12px;padding:20px 24px;margin:32px 0;font-family:Arial,sans-serif}
+    .urgence-box strong{font-size:1.3rem;color:#7A4040}
+    .cta-box{margin-top:48px;background:rgba(255,255,255,.6);border:1px solid #E8BBBB;border-radius:12px;padding:24px;font-style:italic;font-size:1rem}
+    .cta-box a{color:#C47B7B;font-weight:bold;text-decoration:underline}
+    a.back{display:inline-block;margin-bottom:24px;font-family:Arial,sans-serif;font-size:14px;color:#C47B7B;text-decoration:none}
+    .related{margin-top:48px;padding-top:32px;border-top:1px solid #E0DDD5;font-family:Arial,sans-serif}
+    .related p.label{font-size:12px;text-transform:uppercase;letter-spacing:1px;color:#999;margin-bottom:16px}
+    .related ul{list-style:none;padding:0}
+    .related li{margin-bottom:10px;font-size:1rem}
+    .related a{color:#C47B7B;text-decoration:none;font-weight:500}
+    .related a:hover{text-decoration:underline}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a class="back" href="/index.html">← Retour à Sérénum</a>
+    <p class="eyebrow">Harcèlement scolaire</p>
+    <h1>Mon enfant est harcelé à l'école : les signes et comment agir</h1>
+
+    <div class="stat-box">
+      <div class="num">700 000</div>
+      <div class="txt">élèves sont harcelés à l'école chaque année en France (Éducation Nationale) — soit, en moyenne, un enfant par classe.</div>
+    </div>
+
+    <p>Je ne suis pas psychologue. Je suis un parent, et un enfant de ma famille est passé par là. Ce que je raconte ici, c'est ce que j'ai vu, trop tard, et ce que j'aurais voulu savoir avant.</p>
+
+    <div class="dark-box">
+      <p>À la maison, il n'a plus rien dit. La honte l'avait rendu silencieux. On a mis ça sur le compte de la fatigue, d'un coup de mou passager. Et puis un soir, il a tout dit — à sa grand-mère, pas à ses parents. Ce n'est pas grave que ce ne soit pas nous. L'essentiel, c'est qu'il ait trouvé quelqu'un.</p>
+    </div>
+
+    <h2>Un enfant qui souffre ne le dit presque jamais en face</h2>
+    <p>C'est le piège dans lequel tombent la plupart des parents, moi y compris&nbsp;: on attend que l'enfant vienne parler. Mais un enfant harcelé a honte, il a peur d'aggraver la situation en "balançant", et il ne veut souvent pas inquiéter ses parents. Le silence n'est pas un signe que tout va bien — c'est souvent l'inverse.</p>
+
+    <h2>Les signes qui doivent alerter</h2>
+    <ul>
+      <li><strong>Il refuse d'aller à l'école</strong>, invente des maux de ventre ou de tête le matin</li>
+      <li><strong>Il rentre systématiquement triste ou en colère</strong>, un changement de comportement net après l'école</li>
+      <li><strong>Il perd ses affaires ou rentre avec du matériel abîmé</strong> sans explication claire</li>
+      <li><strong>Il dort mal ou mange moins</strong>, sans autre cause apparente</li>
+      <li><strong>Il abandonne ses activités, n'invite plus d'amis</strong>, se replie progressivement</li>
+      <li><strong>Ses résultats scolaires chutent</strong> sans raison identifiée</li>
+      <li><strong>Il tient des propos négatifs sur lui-même</strong> — "je suis nul", "personne ne m'aime"</li>
+    </ul>
+    <p>Un seul de ces signes isolé n'est pas forcément alarmant. Plusieurs qui s'accumulent, sur plusieurs semaines, méritent qu'on ouvre la conversation, sans attendre que l'enfant vienne de lui-même.</p>
+
+    <h2>Ce qu'il ne faut pas dire, et ce qui ouvre la porte</h2>
+    <p>"Défends-toi", "ignore-les", "ce n'est pas grave" — ces phrases partent d'une bonne intention, mais elles ferment le dialogue, parce qu'elles minimisent ce que l'enfant ressent déjà comme immense.</p>
+    <p>Ce qui a fonctionné, dans notre famille, c'est une phrase simple, dite calmement, un soir sans pression&nbsp;: <em>"Je vois que quelque chose te pèse. Tu peux tout me dire, je ne serai pas fâché, et on trouvera une solution ensemble."</em> Puis attendre, sans forcer, sans relancer toutes les cinq minutes.</p>
+
+    <h2>Le plan d'action, une fois que vous savez</h2>
+    <ol>
+      <li><strong>Documentez.</strong> Dates, faits rapportés, témoins si possible. Captures d'écran en cas de cyberharcèlement. Ne supprimez rien.</li>
+      <li><strong>Contactez l'école.</strong> Demandez un rendez-vous avec la direction ET le référent harcèlement (obligatoire dans chaque établissement depuis 2023).</li>
+      <li><strong>Appelez le 3018</strong> pour un conseil juridique gratuit et un accompagnement, même si vous n'êtes pas encore sûr de la gravité.</li>
+      <li><strong>Si l'école ne réagit pas sous 15 jours</strong>, contactez l'Inspection Académique. En cas de violence physique, le dépôt de plainte est possible.</li>
+    </ol>
+
+    <div class="urgence-box">
+      <strong>📞 3018</strong> — Numéro national contre le harcèlement scolaire. Gratuit, anonyme, 9h-23h.<br><br>
+      <strong>📞 119</strong> — Enfance en danger. Gratuit, 24h/24, pour tout danger physique ou moral grave.<br><br>
+      <strong>📞 3114</strong> — Prévention du suicide. Gratuit, 24h/24, si les propos de votre enfant vous inquiètent sérieusement.
+    </div>
+
+    <p>Ces outils aident à réagir vite et bien. Mais le harcèlement scolaire est une situation grave qui mérite systématiquement l'implication de l'école et, souvent, l'avis d'un professionnel (médecin, psychologue) — pas seulement des outils à la maison.</p>
+
+    <div class="cta-box">
+      Je ne suis ni médecin ni psychologue — juste un parent qui a vécu ça de près, dans sa famille. C'est pour ça que j'ai créé <strong>Sérénum</strong>, avec un module dédié&nbsp;: repérage des signaux, scripts de dialogue par âge, plan d'action en 4 étapes, et numéros d'urgence intégrés.
+      <br><br>
+      <a href="/index.html">Découvrir l'accompagnement anti-harcèlement →</a>
+    </div>
+
+    <div class="related">
+      <p class="label">À lire aussi</p>
+      <ul>
+        <li><a href="mon-enfant-a-peur-decole.html">Mon enfant a peur d'aller à l'école : que faire ? →</a></li>
+        <li><a href="mon-ado-stresse-examens.html">Mon ado est stressé par les examens : comment l'aider →</a></li>
+        <li><a href="mon-enfant-ne-me-parle-pas.html">Mon enfant ne me parle pas de l'école : pourquoi il se tait →</a></li>
+      </ul>
+    </div>
+
+    <p style="font-size:0.85rem;color:#999;margin-top:40px;font-family:Arial,sans-serif">Le harcèlement scolaire est un sujet sensible. Si vous ou votre enfant traversez une période difficile, n'hésitez pas à contacter les numéros ci-dessus — ils sont là pour vous accompagner, sans jugement.</p>
+  </div>
+</body>
+</html>
